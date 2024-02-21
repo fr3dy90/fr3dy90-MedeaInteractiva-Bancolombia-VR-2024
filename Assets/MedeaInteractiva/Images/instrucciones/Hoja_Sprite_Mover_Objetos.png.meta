@@ -1,0 +1,1856 @@
+fileFormatVersion: 2
+guid: bded7923c4119c246a7da995311133f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Hoja_Sprite_Mover_Objetos_0
+  - first:
+      213: 21300002
+    second: Hoja_Sprite_Mover_Objetos_1
+  - first:
+      213: 21300004
+    second: Hoja_Sprite_Mover_Objetos_2
+  - first:
+      213: 21300006
+    second: Hoja_Sprite_Mover_Objetos_3
+  - first:
+      213: 21300008
+    second: Hoja_Sprite_Mover_Objetos_4
+  - first:
+      213: 21300010
+    second: Hoja_Sprite_Mover_Objetos_5
+  - first:
+      213: 21300012
+    second: Hoja_Sprite_Mover_Objetos_6
+  - first:
+      213: 21300014
+    second: Hoja_Sprite_Mover_Objetos_7
+  - first:
+      213: 21300016
+    second: Hoja_Sprite_Mover_Objetos_8
+  - first:
+      213: 21300018
+    second: Hoja_Sprite_Mover_Objetos_9
+  - first:
+      213: 21300020
+    second: Hoja_Sprite_Mover_Objetos_10
+  - first:
+      213: 21300022
+    second: Hoja_Sprite_Mover_Objetos_11
+  - first:
+      213: 21300024
+    second: Hoja_Sprite_Mover_Objetos_12
+  - first:
+      213: 21300026
+    second: Hoja_Sprite_Mover_Objetos_13
+  - first:
+      213: 21300028
+    second: Hoja_Sprite_Mover_Objetos_14
+  - first:
+      213: 21300030
+    second: Hoja_Sprite_Mover_Objetos_15
+  - first:
+      213: 21300032
+    second: Hoja_Sprite_Mover_Objetos_16
+  - first:
+      213: 21300034
+    second: Hoja_Sprite_Mover_Objetos_17
+  - first:
+      213: 21300036
+    second: Hoja_Sprite_Mover_Objetos_18
+  - first:
+      213: 21300038
+    second: Hoja_Sprite_Mover_Objetos_19
+  - first:
+      213: 21300040
+    second: Hoja_Sprite_Mover_Objetos_20
+  - first:
+      213: 21300042
+    second: Hoja_Sprite_Mover_Objetos_21
+  - first:
+      213: 21300044
+    second: Hoja_Sprite_Mover_Objetos_22
+  - first:
+      213: 21300046
+    second: Hoja_Sprite_Mover_Objetos_23
+  - first:
+      213: 21300048
+    second: Hoja_Sprite_Mover_Objetos_24
+  - first:
+      213: 21300050
+    second: Hoja_Sprite_Mover_Objetos_25
+  - first:
+      213: 21300052
+    second: Hoja_Sprite_Mover_Objetos_26
+  - first:
+      213: 21300054
+    second: Hoja_Sprite_Mover_Objetos_27
+  - first:
+      213: 21300056
+    second: Hoja_Sprite_Mover_Objetos_28
+  - first:
+      213: 21300058
+    second: Hoja_Sprite_Mover_Objetos_29
+  - first:
+      213: 21300060
+    second: Hoja_Sprite_Mover_Objetos_30
+  - first:
+      213: 21300062
+    second: Hoja_Sprite_Mover_Objetos_31
+  - first:
+      213: 21300064
+    second: Hoja_Sprite_Mover_Objetos_32
+  - first:
+      213: 21300066
+    second: Hoja_Sprite_Mover_Objetos_33
+  - first:
+      213: 21300068
+    second: Hoja_Sprite_Mover_Objetos_34
+  - first:
+      213: 21300070
+    second: Hoja_Sprite_Mover_Objetos_35
+  - first:
+      213: 21300072
+    second: Hoja_Sprite_Mover_Objetos_36
+  - first:
+      213: 21300074
+    second: Hoja_Sprite_Mover_Objetos_37
+  - first:
+      213: 21300076
+    second: Hoja_Sprite_Mover_Objetos_38
+  - first:
+      213: 21300078
+    second: Hoja_Sprite_Mover_Objetos_39
+  - first:
+      213: 21300080
+    second: Hoja_Sprite_Mover_Objetos_40
+  - first:
+      213: 21300082
+    second: Hoja_Sprite_Mover_Objetos_41
+  - first:
+      213: 21300084
+    second: Hoja_Sprite_Mover_Objetos_42
+  - first:
+      213: 21300086
+    second: Hoja_Sprite_Mover_Objetos_43
+  - first:
+      213: 21300088
+    second: Hoja_Sprite_Mover_Objetos_44
+  - first:
+      213: 21300090
+    second: Hoja_Sprite_Mover_Objetos_45
+  - first:
+      213: 21300092
+    second: Hoja_Sprite_Mover_Objetos_46
+  - first:
+      213: 21300094
+    second: Hoja_Sprite_Mover_Objetos_47
+  - first:
+      213: 21300096
+    second: Hoja_Sprite_Mover_Objetos_48
+  - first:
+      213: 21300098
+    second: Hoja_Sprite_Mover_Objetos_49
+  - first:
+      213: 21300100
+    second: Hoja_Sprite_Mover_Objetos_50
+  - first:
+      213: 21300102
+    second: Hoja_Sprite_Mover_Objetos_51
+  - first:
+      213: 21300104
+    second: Hoja_Sprite_Mover_Objetos_52
+  - first:
+      213: 21300106
+    second: Hoja_Sprite_Mover_Objetos_53
+  - first:
+      213: 21300108
+    second: Hoja_Sprite_Mover_Objetos_54
+  - first:
+      213: 21300110
+    second: Hoja_Sprite_Mover_Objetos_55
+  - first:
+      213: 21300112
+    second: Hoja_Sprite_Mover_Objetos_56
+  - first:
+      213: 21300114
+    second: Hoja_Sprite_Mover_Objetos_57
+  - first:
+      213: 21300116
+    second: Hoja_Sprite_Mover_Objetos_58
+  - first:
+      213: 21300118
+    second: Hoja_Sprite_Mover_Objetos_59
+  - first:
+      213: 21300120
+    second: Hoja_Sprite_Mover_Objetos_60
+  - first:
+      213: 21300122
+    second: Hoja_Sprite_Mover_Objetos_61
+  - first:
+      213: 21300124
+    second: Hoja_Sprite_Mover_Objetos_62
+  - first:
+      213: 21300126
+    second: Hoja_Sprite_Mover_Objetos_63
+  - first:
+      213: 21300128
+    second: Hoja_Sprite_Mover_Objetos_64
+  - first:
+      213: 21300130
+    second: Hoja_Sprite_Mover_Objetos_65
+  - first:
+      213: 21300132
+    second: Hoja_Sprite_Mover_Objetos_66
+  - first:
+      213: 21300134
+    second: Hoja_Sprite_Mover_Objetos_67
+  - first:
+      213: 21300136
+    second: Hoja_Sprite_Mover_Objetos_68
+  - first:
+      213: 21300138
+    second: Hoja_Sprite_Mover_Objetos_69
+  - first:
+      213: 21300140
+    second: Hoja_Sprite_Mover_Objetos_70
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 4
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1680
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c649f6fdec237f418360dc4ec5bb1f8
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1680
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f417148cdebd32144845bb88c42d85b6
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1680
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77bf3d96459cc548915dab6b1a61a51
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1680
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601e4e36418d87f438effad316501077
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1680
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26c3b9e651beda40a3a6dc628f7a0f2
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1680
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48eb6985357996e45a8fd7bf6659a7ed
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1680
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea98f66d33f02c4c8854a531425ea0c
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_7
+      rect:
+        serializedVersion: 2
+        x: 2795
+        y: 1677
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75745adbec3c87040a2de8e13488a11e
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1680
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a86ac16e0c167841867c4df7bff22e9
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f13457dd764d441b7b2d26e914dd98
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31152b1b776b6b448a8dbef5ee4daeeb
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6eb4ecee74d2d448a28bc4221a610a1
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0d0461156e7e14fa6bd34c0503650c
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_13
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed36668628226344ac76e76adc9b9af
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_14
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29963f8fe80995c4d9f07bd01d5a0c0b
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_15
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3342c39ee8e0b4199a7109f8956003
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_16
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79dfe0aa2ddcf74dbe8b8ec7ebe8198
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_17
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1440
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af2e49c442c8544ab93a8929d33c9cd
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65ac1a581c87ba48a2898f6f69f4fdc
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0321510e749072545890dc9e2082eb84
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1561931c138a24094bba143729f7fc
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_21
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a11c8edc156de84596b041a9617b58d
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_22
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b5fee6ac30e204f8a41493a386b6d2
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_23
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66edd0041b92e743b3945be3ab14622
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_24
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e147d3c37bcf8343bd83194e1923119
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_25
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe9d1742a19e9644a49338d64661176
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_26
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1200
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7117ac13c39863e4683e5403f6e7e7b0
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d1005e0ecc4dd44b55f282186a7e37
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_28
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffad9688a67913640ad2816ca2f2d049
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bb27b0202b2b549827a1fcf0c2e6f2
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63a2beba10544b4f93fcf707022805c
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_31
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4452faaf73aa41541ac2eadd9b126a2e
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66fffbe131d974f4aa211a63774441c4
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_33
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87b254845cddca4ca11eeaf5c20dde9
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_34
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217deacecc2a0554c8cffeb388b735ee
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_35
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 960
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562ff8f366863104b9a8f61bf62862ec
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffb1a38879443a4284e483622cd97e4
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3510faba5fb07644f8fcdffd4872874d
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_38
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8eb7820c721e64489a114c30591bcb
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_39
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c497868d4086507488684eeab0b2835b
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_40
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260115fa76071c24799a9c90a05e6838
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24902155ee5238478d62d2b82cc0105
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_42
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9516bb2a67c3bcc4aa34af5f3a4b4ab5
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_43
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cfffb360357ed4e89f7c43011a92e0
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_44
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 720
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6e356c9136dae4daf705146f44743d
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfb50142b0b7184182eaeba7137719c
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e15a2b0ff3e524bb2efed0dca2b5f5
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_47
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecffbfc86d049b44f9746d64d0ba8b7e
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_48
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636b9c11aa2dc8d4faf16aaa68ab4caf
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_49
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3908be727bb87b14495d436491f38258
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_50
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d9f10dd1c0a54580e7e340036ee9b
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_51
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c19ac2f9eab384ea97d75c91498293
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_52
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfb510d9510198449c318de87042eea
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_53
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 480
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc117910e52e668418e7b542304d831d
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1cb5d0c189254c479f724cfe07cb280
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3230cffe6d17bc4da6052c62dc9cbb2
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_56
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d737923424d7b8488e3eb8f6301378a
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_57
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34219e26bfa3c9d45bcb336257041184
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178b185f1c8c0e948a03710ad0b98e38
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_59
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e61939e7e04fd44855f73ac644488e
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_60
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f74e6ba713009a40a4635acb6801a01
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_61
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ff41739016adb40abaddd107c6d95b
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_62
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 240
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164108803962c3446ba06327015c1c5f
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246e30e6d60ce3646904d0f50e02fc95
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_64
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d98fda90a50f9e4dabb488958423142
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_65
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61b922e15209d44691a0e995298c894
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_66
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce9445901c1ed44ab72f6b93784a2ae
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_67
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8085a1abedfefe94fa7fa6f20ca3acf5
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_68
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd77e71c9634e2344b0e1c0322ad810b
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_69
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95a1c62f30365844b8904de5e0a9324
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hoja_Sprite_Mover_Objetos_70
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 0
+        width: 400
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0742d666a7d94f94aa683db8e5400d20
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 4d1c405489a299c4f8c4d896fb4458bb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

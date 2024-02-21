@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: ebd9eecbe82b48e4b9d799e7d47a49ff
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CIBFont Sans
+  fontNames:
+  - CIBFont Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 749d9b92e2a40d347b33690720099639, type: 3}
+  - {fileID: 12800000, guid: 33ab79d3c2665ba4f821c1686fb20086, type: 3}
+  - {fileID: 12800000, guid: e3f9560443a06e9469003e36da9203a7, type: 3}
+  - {fileID: 12800000, guid: 9233f764a04845746b7f51d5d68d003e, type: 3}
+  - {fileID: 12800000, guid: f0bbb4a644f35fe4fb7c635584b973f0, type: 3}
+  - {fileID: 12800000, guid: 1b10ee281fed49f44b2bcf008fb2cc0c, type: 3}
+  - {fileID: 12800000, guid: 869366c9cc66c0d4292ddd5a1b03abd6, type: 3}
+  - {fileID: 12800000, guid: 24ede0aae924cd04d9bbd5b90913a44e, type: 3}
+  - {fileID: 12800000, guid: b4f9448b0d5f244458b46487704689f0, type: 3}
+  - {fileID: 12800000, guid: 93a14c9d7d52cbb4b8ad4921cb1d31cf, type: 3}
+  - {fileID: 12800000, guid: 8abb5abd51a42584098822827407855c, type: 3}
+  - {fileID: 12800000, guid: 946a62ceabd1dcd4f850eb8e44e6a4b8, type: 3}
+  - {fileID: 12800000, guid: 4aa70ade568aa124fbe82950ead126af, type: 3}
+  - {fileID: 12800000, guid: d76bc8ee8b27a50469e89244df30cf58, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

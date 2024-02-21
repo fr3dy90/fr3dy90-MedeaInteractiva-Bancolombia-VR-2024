@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: 8e40a7d6266ce2a4c967e2cfdd2f0dcb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: __KeyGoodBoard1
+    100002: __MonitorLG03
+    100004: __MousaCover02
+    100006: __Plane02
+    100008: __SystemBlock01
+    100010: puesto
+    100012: //RootNode
+    400000: __KeyGoodBoard1
+    400002: __MonitorLG03
+    400004: __MousaCover02
+    400006: __Plane02
+    400008: __SystemBlock01
+    400010: puesto
+    400012: //RootNode
+    2100000: __gris
+    2100002: '__Material #21'
+    2100004: __blinn2
+    2100006: puestoTrabajo
+    2100008: __gris1
+    2100010: '__Material #269'
+    2100012: '__Material #270'
+    2100014: __PlasticGlade02
+    2100016: __PlasticGlade01
+    2100018: _lambert15
+    2100020: _rsMaterial5
+    2100022: __01 - Default
+    2100024: __MetelLews01
+    2100026: __ChromsFORled
+    2100028: Vidrio1
+    2300000: __KeyGoodBoard1
+    2300002: __MonitorLG03
+    2300004: __MousaCover02
+    2300006: __Plane02
+    2300008: __SystemBlock01
+    2300010: puesto
+    3300000: __KeyGoodBoard1
+    3300002: __MonitorLG03
+    3300004: __MousaCover02
+    3300006: __Plane02
+    3300008: __SystemBlock01
+    3300010: puesto
+    4300000: __Plane02
+    4300002: puesto
+    4300004: __MonitorLG03
+    4300006: __MousaCover02
+    4300008: __KeyGoodBoard1
+    4300010: __SystemBlock01
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vidrio1
+    second: {fileID: 2100000, guid: c204af832d2ba8d4aa9de63572ebaab2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __01 - Default
+    second: {fileID: 2100000, guid: f2947aa96ebeda743945227e97c14daf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __ChromsFORled
+    second: {fileID: 2100000, guid: 6073c35c753d54b4190300af3e01316c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '__Material #21'
+    second: {fileID: 2100000, guid: a51ec0e6db1b2f9479fd4eb4c4f597c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '__Material #269'
+    second: {fileID: 2100000, guid: b023417f559e2da498c08dd8039c6986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '__Material #270'
+    second: {fileID: 2100000, guid: fdf4e8691e1e83544b4e846bf7e1607f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __MetelLews01
+    second: {fileID: 2100000, guid: b3a1c988e7f969b44aa6ea184c2d03af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __PlasticGlade01
+    second: {fileID: 2100000, guid: d75645a23ebc83a4485cc013a100a709, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __PlasticGlade02
+    second: {fileID: 2100000, guid: 4948e42b01b643e49ab7d7315f76f69a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __blinn2
+    second: {fileID: 2100000, guid: ac65644a178a49f45a8a585a1b06fa97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __gris
+    second: {fileID: 2100000, guid: 99e99812d6d184a4398a0a304b2fe216, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: __gris1
+    second: {fileID: 2100000, guid: 978997189679fba4c936cb6d4ef6fdf9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _lambert15
+    second: {fileID: 2100000, guid: cf6a6b622898bf546972e777c3194e50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _rsMaterial5
+    second: {fileID: 2100000, guid: e1e8e03e9ba535e4ab2ef3e2d6cc3eb9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puestoTrabajo
+    second: {fileID: 2100000, guid: bc0e25c60f1342c418e549be63a0c40c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

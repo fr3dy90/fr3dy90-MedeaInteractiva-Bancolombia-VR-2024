@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 33ab79d3c2665ba4f821c1686fb20086
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CIBFont Sans
+  fontNames:
+  - CIBFont Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9233f764a04845746b7f51d5d68d003e, type: 3}
+  - {fileID: 12800000, guid: f0bbb4a644f35fe4fb7c635584b973f0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

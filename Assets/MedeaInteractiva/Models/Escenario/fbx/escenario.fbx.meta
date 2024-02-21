@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: 43ee90eda0527634d8f58318cb184f9b
+timeCreated: 1519057265
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: columna1
+    100002: columna2
+    100004: columnas
+    100006: //RootNode
+    100008: grupo_zocalo
+    100010: letrero_bancolombia
+    100012: mesa
+    100014: mostrador
+    100016: mostrar
+    100018: mostrar1
+    100020: muro
+    100022: muro1
+    100024: muro2
+    100026: pared
+    100028: pared2
+    100030: pared3
+    100032: pared4
+    100034: pared5
+    100036: pCube102
+    100038: pCube103
+    100040: pCube64
+    100042: pCube65
+    100044: pCube68
+    100046: pCube69
+    100048: pCube79
+    100050: suelo
+    100052: techo
+    100054: vidrios
+    100056: vidrios1
+    100058: vidrios2
+    100060: vidrios3
+    100062: vidrios4
+    100064: zocalos1
+    100066: zocalos10
+    100068: zocalos11
+    100070: zocalos12
+    100072: zocalos13
+    100074: zocalos14
+    100076: zocalos2
+    100078: zocalos3
+    100080: zocalos4
+    100082: zocalos5
+    100084: zocalos6
+    100086: zocalos7
+    100088: zocalos8
+    100090: zocalos9
+    400000: columna1
+    400002: columna2
+    400004: columnas
+    400006: //RootNode
+    400008: grupo_zocalo
+    400010: letrero_bancolombia
+    400012: mesa
+    400014: mostrador
+    400016: mostrar
+    400018: mostrar1
+    400020: muro
+    400022: muro1
+    400024: muro2
+    400026: pared
+    400028: pared2
+    400030: pared3
+    400032: pared4
+    400034: pared5
+    400036: pCube102
+    400038: pCube103
+    400040: pCube64
+    400042: pCube65
+    400044: pCube68
+    400046: pCube69
+    400048: pCube79
+    400050: suelo
+    400052: techo
+    400054: vidrios
+    400056: vidrios1
+    400058: vidrios2
+    400060: vidrios3
+    400062: vidrios4
+    400064: zocalos1
+    400066: zocalos10
+    400068: zocalos11
+    400070: zocalos12
+    400072: zocalos13
+    400074: zocalos14
+    400076: zocalos2
+    400078: zocalos3
+    400080: zocalos4
+    400082: zocalos5
+    400084: zocalos6
+    400086: zocalos7
+    400088: zocalos8
+    400090: zocalos9
+    2300000: columna1
+    2300002: columna2
+    2300004: columnas
+    2300006: letrero_bancolombia
+    2300008: mesa
+    2300010: mostrador
+    2300012: mostrar
+    2300014: mostrar1
+    2300016: muro
+    2300018: muro1
+    2300020: muro2
+    2300022: pared
+    2300024: pared2
+    2300026: pared3
+    2300028: pared4
+    2300030: pared5
+    2300032: pCube103
+    2300034: pCube64
+    2300036: pCube65
+    2300038: pCube68
+    2300040: pCube69
+    2300042: pCube79
+    2300044: suelo
+    2300046: techo
+    2300048: vidrios
+    2300050: vidrios1
+    2300052: vidrios2
+    2300054: vidrios3
+    2300056: vidrios4
+    2300058: zocalos1
+    2300060: zocalos10
+    2300062: zocalos11
+    2300064: zocalos12
+    2300066: zocalos13
+    2300068: zocalos14
+    2300070: zocalos2
+    2300072: zocalos3
+    2300074: zocalos4
+    2300076: zocalos5
+    2300078: zocalos6
+    2300080: zocalos7
+    2300082: zocalos8
+    2300084: zocalos9
+    3300000: columna1
+    3300002: columna2
+    3300004: columnas
+    3300006: letrero_bancolombia
+    3300008: mesa
+    3300010: mostrador
+    3300012: mostrar
+    3300014: mostrar1
+    3300016: muro
+    3300018: muro1
+    3300020: muro2
+    3300022: pared
+    3300024: pared2
+    3300026: pared3
+    3300028: pared4
+    3300030: pared5
+    3300032: pCube103
+    3300034: pCube64
+    3300036: pCube65
+    3300038: pCube68
+    3300040: pCube69
+    3300042: pCube79
+    3300044: suelo
+    3300046: techo
+    3300048: vidrios
+    3300050: vidrios1
+    3300052: vidrios2
+    3300054: vidrios3
+    3300056: vidrios4
+    3300058: zocalos1
+    3300060: zocalos10
+    3300062: zocalos11
+    3300064: zocalos12
+    3300066: zocalos13
+    3300068: zocalos14
+    3300070: zocalos2
+    3300072: zocalos3
+    3300074: zocalos4
+    3300076: zocalos5
+    3300078: zocalos6
+    3300080: zocalos7
+    3300082: zocalos8
+    3300084: zocalos9
+    4300000: suelo
+    4300002: pared
+    4300004: pared2
+    4300006: pared3
+    4300008: columnas
+    4300010: muro
+    4300012: techo
+    4300014: pared5
+    4300016: muro1
+    4300018: muro2
+    4300020: columna1
+    4300022: pared4
+    4300024: columna2
+    4300026: mesa
+    4300028: letrero_bancolombia
+    4300030: pCube64
+    4300032: pCube65
+    4300034: pCube68
+    4300036: pCube69
+    4300038: vidrios4
+    4300040: vidrios
+    4300042: vidrios2
+    4300044: vidrios1
+    4300046: vidrios3
+    4300048: pCube79
+    4300050: zocalos1
+    4300052: zocalos2
+    4300054: zocalos4
+    4300056: zocalos3
+    4300058: zocalos7
+    4300060: zocalos6
+    4300062: zocalos5
+    4300064: zocalos10
+    4300066: zocalos9
+    4300068: zocalos8
+    4300070: zocalos11
+    4300072: zocalos12
+    4300074: zocalos13
+    4300076: zocalos14
+    4300078: mostrar
+    4300080: mostrar1
+    4300082: pCube103
+    4300084: mostrador
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aluminio_ventanas_mt
+    second: {fileID: 2100000, guid: 7dd6cedfa97ca70408f7f0145aedb22f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert10
+    second: {fileID: 2100000, guid: f7dc4aec13c008343a9e48f8a469311a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: letrero_bancolombia_mt
+    second: {fileID: 2100000, guid: 06aaa683dc47f3041a01e188575a442c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: letreros_asesores
+    second: {fileID: 2100000, guid: 91fca95aa007e114f919850d65b1efe7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: letreros_cajas_mt
+    second: {fileID: 2100000, guid: d8a2a181849689542bde84d977fc2c8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mostrador_Separador_mt
+    second: {fileID: 2100000, guid: 6a526b61331b7af4eb0a528ea02a6c58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mostrador_pagos_mt
+    second: {fileID: 2100000, guid: 25f6e7b14995ff242b3ba9e79512787e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pared_mt
+    second: {fileID: 2100000, guid: 2e277cfe60e760b4c9bc7f15a000bca5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: separador_mt
+    second: {fileID: 2100000, guid: 5175c0567d3280d418bb43afbeb64f13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: suelomt
+    second: {fileID: 2100000, guid: fc75422af99cd9b45bcb86e83f323d82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tabla_mesa_mt1
+    second: {fileID: 2100000, guid: 4336e490b8b491845b75d85f2e8a3e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: techo_mt
+    second: {fileID: 2100000, guid: d9fe9f0df76fea14e81f6ca0e2462fd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidrio_entrada_mt
+    second: {fileID: 2100000, guid: d8c9076d8dedd614495a996fbbfd6756, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vidrio_opaco_mt
+    second: {fileID: 2100000, guid: 141523e1801af1445a64b9a3e13a1609, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zocalos_mt
+    second: {fileID: 2100000, guid: 2fa7d8d8bfb31974c82396b1d558d865, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
