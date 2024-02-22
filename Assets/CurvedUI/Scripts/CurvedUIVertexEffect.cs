@@ -384,12 +384,13 @@ namespace CurvedUI
             //we check for a sudden change in text's fontMaterialTexture. This is a very hacky way, but the only one working reliably for now.
             if (myText)
             {
-                if (myText.cachedTextGenerator.verts.Count > 0 && myText.cachedTextGenerator.verts[0].uv0 != savedTextUV0)
+                /*if (myText.cachedTextGenerator.verts.Count > 0 && myText.cachedTextGenerator.verts[0].uv0 != savedTextUV0)
                 {
                     //Debug.Log("tess req - texture");
                     savedTextUV0 = myText.cachedTextGenerator.verts[0].uv0;
                     tesselationRequired = true;
                 }
+                */
             }
         }
 
@@ -637,8 +638,8 @@ namespace CurvedUI
 
             for (int i = 0; i < 4; i++)
             {
-                _uv0 += m_quad[i].uv0 * m_weights[i];
-                _uv1 += m_quad[i].uv1 * m_weights[i];
+                //_uv0 += m_quad[i].uv0 * m_weights[i];
+                //_uv1 += m_quad[i].uv1 * m_weights[i];
                 _pos += m_quad[i].position * m_weights[i];
                 //normal += quad[i].normal * weights[i]; // normals should be recalculated to take the curve into account. Skipped to save performance.
                 //tan += quad[i].tangent * weights[i]; // tangents should be recalculated to take the curve into account. Skipped to save performance.

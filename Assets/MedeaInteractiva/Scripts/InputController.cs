@@ -66,12 +66,12 @@ public class InputController : MonoBehaviour, IEventSystemHandler
         myRay = new Ray(this.transform.position, this.transform.forward);
 
         CurvedUIInputModule.CustomControllerRay = myRay;
-        CurvedUIInputModule.CustomControllerButtonState = Input.GetButton("Fire1") | OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger);
+        CurvedUIInputModule.CustomControllerButtonState = Input.GetButton("Fire1") ;
 
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(myRay, out hit, Mathf.Infinity))
         {
-            if (Input.GetMouseButtonDown(0) | OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+            if (Input.GetMouseButtonDown(0))
             {
                 if (hit.collider.GetComponent<DraggableObject>())
                 {
@@ -85,7 +85,7 @@ public class InputController : MonoBehaviour, IEventSystemHandler
 
             if (target != null)
             {
-                isDragging = Input.GetMouseButton(0) | OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger);
+                isDragging = Input.GetMouseButton(0);
 
                 if (isDragging)
                 {
