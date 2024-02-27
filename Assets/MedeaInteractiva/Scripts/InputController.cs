@@ -8,12 +8,9 @@ public class InputController : MonoBehaviour, IEventSystemHandler
 {
 #pragma warning disable 0649
 
-    [SerializeField]
-    CurvedUISettings mySettings;
-    [SerializeField]
-    Transform pivot;
-    [SerializeField]
-    float sensitivity = 0.1f;
+    [SerializeField] CurvedUISettings mySettings;
+    [SerializeField] Transform pivot;
+    [SerializeField] float sensitivity = 0.1f;
 #pragma warning restore 0649
 
     Vector3 lastMouse;
@@ -53,7 +50,7 @@ public class InputController : MonoBehaviour, IEventSystemHandler
 
     void OculusController()
     {
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         if (isMouseMove)
         {
             Vector3 mouseDelta = Input.mousePosition - lastMouse;
@@ -66,12 +63,12 @@ public class InputController : MonoBehaviour, IEventSystemHandler
         myRay = new Ray(this.transform.position, this.transform.forward);
 
         CurvedUIInputModule.CustomControllerRay = myRay;
-        CurvedUIInputModule.CustomControllerButtonState = Input.GetButton("Fire1") | OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger);
+        CurvedUIInputModule.CustomControllerButtonState = Input.GetButton("Fire1");
 
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(myRay, out hit, Mathf.Infinity))
         {
-            if (Input.GetMouseButtonDown(0) | OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
+            if (Input.GetMouseButtonDown(0))
             {
                 if (hit.collider.GetComponent<DraggableObject>())
                 {
@@ -85,7 +82,7 @@ public class InputController : MonoBehaviour, IEventSystemHandler
 
             if (target != null)
             {
-                isDragging = Input.GetMouseButton(0) | OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger);
+                isDragging = Input.GetMouseButton(0);
 
                 if (isDragging)
                 {

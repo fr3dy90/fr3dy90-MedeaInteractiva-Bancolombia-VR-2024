@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MedeaInteractiva/Scenes/Momento1.unity
     guid: 6344afd2f98d08844910713c9f7f9cc4
+  - enabled: 1
+    path: Assets/MedeaInteractiva/Scenes/Oficina_Model.unity
+    guid: 3d6bf34c9904c0945803ef22f75adc10
   m_configObjects: {}

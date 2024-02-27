@@ -9,22 +9,25 @@ using DG.Tweening;
 public class Home : MonoBehaviour
 {
 #pragma warning disable 0649
-    [SerializeField]
-    private GameObject[] sequenceObject;
+    [SerializeField] private GameObject[] sequenceObject;
     [SerializeField] private GameObject[] level_menu;
-    [SerializeField]
-    private GameObject[] level_home;
-    [SerializeField]
-    private GameObject[] level_momento_1;
+    [SerializeField] private GameObject[] level_home;
+    [SerializeField] private GameObject[] level_momento_1;
     [SerializeField] private GameObject[] level_momento_2;
-    [SerializeField]
-    private AudioSource _audio;
-    [SerializeField]
-    private AudioClip[] _clip;
+    [SerializeField] private AudioSource _audio;
+    [SerializeField] private AudioClip[] _clip;
     [SerializeField] private float timeScaleSpeed = 1;
 #pragma warning restore 0649
     
     void Start()
+    {
+        return;
+        DOTween.Init();
+
+        StartCoroutine(StartAnim());
+    }
+
+    public void Launch()
     {
         DOTween.Init();
 
