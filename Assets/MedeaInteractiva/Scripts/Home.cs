@@ -127,21 +127,58 @@ public class Home : MonoBehaviour
 
     IEnumerator _LoadMenu()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
-
-        yield return new WaitForSeconds(seconds);
-
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
+        switch (ProjectConfig.Instance.actualPlatform)
         {
-            LoadMenuExternal();
-            ReticlePointerController.Instace.ready = false;
+            case Platform.Android:
+                float seconds = ReticlePointerController.Instace.maxSliderValue;
+                ReticlePointerController.Instace.loading = true;
+
+                yield return new WaitForSeconds(seconds);
+
+                if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
+                {
+                    LoadMenuExternal();
+                    ReticlePointerController.Instace.ready = false;
+                }
+                break;
+            case Platform.Oculus:
+                break;
+            case  Platform.WebGl:
+                LoadMenuExternal();
+                break;
         }
+       
     }
 
     public void LoadMoment1()
     {
-        StartCoroutine(_LoadMoment1());
+        switch (ProjectConfig.Instance.actualPlatform)
+        {
+            case Platform.Android:
+                StartCoroutine(_LoadMoment1());
+                break;
+            case Platform.Oculus:
+                break;
+            case Platform.WebGl:
+                foreach(GameObject component in level_momento_1)
+                {
+                    component.SetActive(true);
+                }
+                foreach (GameObject component in level_home)
+                {
+                    component.SetActive(false);
+                }
+                foreach (GameObject component in level_momento_2)
+                {
+                    component.SetActive(false);
+                }
+
+                foreach (GameObject component in level_menu)
+                {
+                    component.SetActive(false);
+                }
+                break;
+        }
     }
 
     public void LoadMoment2()
