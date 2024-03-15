@@ -100,13 +100,14 @@ public class Home : MonoBehaviour
 
     IEnumerator _LoadMoment2()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        //float seconds = ReticlePointerController.Instace.maxSliderValue;
+        float seconds = 1F;
+        //ReticlePointerController.Instace.loading = true;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
-        {
+        //if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
+        //{
             foreach(GameObject component in level_momento_1)
             {
                 component.SetActive(value: false);
@@ -121,8 +122,8 @@ public class Home : MonoBehaviour
                 component.SetActive(false);
             }
 
-            ReticlePointerController.Instace.ready = false;
-        }
+            //ReticlePointerController.Instace.ready = false;
+        //}
     }
 
     IEnumerator _LoadMenu()

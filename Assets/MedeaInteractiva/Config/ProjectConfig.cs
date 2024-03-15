@@ -39,7 +39,7 @@ public  class ProjectConfig : MonoBehaviour
                 _gvrPointerPhysicsRaycaster.enabled = false;
                 _gvrReticlePointer.enabled = false;
                 _reticlePointerController.enabled = false;
-                _fpCamera.enabled = false;
+                _fpCamera.enabled = true;
                 _reticleCanvas.SetActive(false);
                 _reticleGameObject.SetActive(false);
                 

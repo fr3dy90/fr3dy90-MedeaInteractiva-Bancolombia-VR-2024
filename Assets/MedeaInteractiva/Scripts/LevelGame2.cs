@@ -140,7 +140,8 @@ public class LevelGame2 : MonoBehaviour
 
     IEnumerator StartAnim(int sequence)
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
+        //float seconds = ReticlePointerController.Instace.maxSliderValue;
+        float seconds = 1;
 
         if (sequence == 0)
         {
@@ -153,11 +154,11 @@ public class LevelGame2 : MonoBehaviour
         }
         else if (sequence == 2)
         {
-            ReticlePointerController.Instace.loading = true;
+            //ReticlePointerController.Instace.loading = true;
 
             yield return new WaitForSeconds(seconds);
 
-            if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
+            //if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
             {
                 sequenceObject[0].SetActive(false);
                 sequenceObject[1].SetActive(false);
@@ -175,7 +176,7 @@ public class LevelGame2 : MonoBehaviour
                 sequenceObject[4].SetActive(false);
                 sequenceObject[1].SetActive(true);
 
-                ReticlePointerController.Instace.ready = false;
+                //ReticlePointerController.Instace.ready = false;
             }
         }
         else if (sequence == 3)
@@ -543,18 +544,19 @@ public class LevelGame2 : MonoBehaviour
 
     IEnumerator _HideRetroalimentacion()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        //float seconds = ReticlePointerController.Instace.maxSliderValue;
+        float seconds = 1;
+        //ReticlePointerController.Instace.loading = true;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
+        //if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             cierre.SetActive(false);
             cierre.transform.parent.gameObject.SetActive(false);
             continueWindowObject.SetActive(true);
             
-            ReticlePointerController.Instace.ready = false;
+            //ReticlePointerController.Instace.ready = false;
         }
     }
 
@@ -565,12 +567,13 @@ public class LevelGame2 : MonoBehaviour
 
     IEnumerator _ConfigureNextPart()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        //float seconds = ReticlePointerController.Instace.maxSliderValue;
+        float seconds = 1;
+        //ReticlePointerController.Instace.loading = true;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
+        //if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             
             foreach (var go in nextPartConfigurationON)
@@ -584,7 +587,7 @@ public class LevelGame2 : MonoBehaviour
             }
 
             LevelGame1.Instance.ResetData();
-            ReticlePointerController.Instace.ready = false;
+            //reticlePointerController.Instace.ready = false;
         }
     }
 
@@ -595,12 +598,13 @@ public class LevelGame2 : MonoBehaviour
 
     IEnumerator _EndMomento()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        //float seconds = ReticlePointerController.Instace.maxSliderValue;
+        float seconds = 1;
+        //ReticlePointerController.Instace.loading = true;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
+        //if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
 
             cierre.SetActive(false);
@@ -611,7 +615,7 @@ public class LevelGame2 : MonoBehaviour
 
             home.GetComponent<Home>().LoadMenuExternal();
 
-            ReticlePointerController.Instace.ready = false;
+            //ReticlePointerController.Instace.ready = false;
         }
     }
 

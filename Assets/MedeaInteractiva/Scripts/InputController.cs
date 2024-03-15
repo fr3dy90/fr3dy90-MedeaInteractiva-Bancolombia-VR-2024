@@ -48,7 +48,7 @@ public class InputController : MonoBehaviour, IEventSystemHandler
         }
     }
 
-    void OculusController()
+    /*void OculusController()
     {
 #if UNITY_EDITOR
         if (isMouseMove)
@@ -116,6 +116,7 @@ public class InputController : MonoBehaviour, IEventSystemHandler
             }
         }
     }
+    */
 
     void Drag(RaycastHit hit)
     {
@@ -158,62 +159,16 @@ public class InputController : MonoBehaviour, IEventSystemHandler
 
             yield return new WaitForSeconds(seconds);
 
-            DoActionEvent();
+            
             
         }
     }
 
-    public void DoActionEvent()
+    private void _Detecting()
     {
-        if(target != null)
-        {
-            if(ReticlePointerController.Instace.ready) //&& !ReticlePointerController.Instace.loading)
-            {
-                if (target.GetComponent<DraggableObject>().isCorrectCategory)
-                {
-                    if(GlobalData.level == 0)
-                    {
-                        LevelGame1.Instance.SetScore(target.GetComponent<DraggableObject>().category1);
-                    }
-                    if(GlobalData.level == 1)
-                    {
-                        LevelGame2.Instance.SetScore(target.GetComponent<DraggableObject>().category1);
-                        LevelGame2.Instance.Compare(true,target.GetComponent<DraggableObject>().category1);
-                    }
-                    Debug.Log("correcto");
-                }
-                else
-                {
-                    if(GlobalData.level == 0)
-                    {
-                        LevelGame1.Instance.ShowObject();
-                    }
-                    if(GlobalData.level == 1)
-                    {
-                        LevelGame2.Instance.Compare(false,target.GetComponent<DraggableObject>().category1);
-                        target.GetComponent<ObjectPosition>().ResetPosition();
-                        target = null;
-                    }
-                    Debug.Log("incorrecto");
-                }
-                if(target != null)
-                {
-                    target.SetActive(false);
-                }
-                //target.transform.position = initialDistance.position;
-                isDragging = false;
-                this.target = null;
-                
-                ReticlePointerController.Instace.ready = false;    
-            }
-            detecting = false;
-        }else
-        {
-            detecting = false;
-            ReticlePointerController.Instace.loading = false;
-            ReticlePointerController.Instace.ready = false;
-            ReticlePointerController.Instace.loadingSlider.value = 0;
-        }
+        
     }
+
+    
 
 }

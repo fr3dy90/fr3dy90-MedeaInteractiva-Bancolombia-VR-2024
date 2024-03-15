@@ -25,6 +25,12 @@ public class ContainerCategory : MonoBehaviour
         if(col.GetComponent<DraggableObject>())
             transform.DOScale(endScale, 0.2f);
     }
+    
+    void OnTriggerStay(Collider col)
+    {
+        if(col.GetComponent<DraggableObject>())
+            transform.DOScale(endScale, 0.2f);
+    }
 
     void OnTriggerExit(Collider col)
     {
