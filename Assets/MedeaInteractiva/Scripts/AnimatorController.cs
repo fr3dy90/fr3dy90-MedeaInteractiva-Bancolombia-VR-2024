@@ -10,6 +10,7 @@ public class AnimatorController : MonoBehaviour
     
     private void Awake()
     {
+        _animator = GetComponent<Animator>();
         _animator.SetTrigger(actualAnimation.ToString());
     }
 }
