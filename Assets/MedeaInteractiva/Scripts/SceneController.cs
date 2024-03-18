@@ -8,7 +8,7 @@ public class SceneController : MonoBehaviour
    [SerializeField] private AnimationCurve _curve;
    [SerializeField] private Home _home;
    [SerializeField] private GameObject _welcome;
-   [SerializeField] private GvrEditorEmulator _gvrEditorEmulator;
+   //[SerializeField] private GvrEditorEmulator _gvrEditorEmulator;
    
 
    private void Awake()
@@ -27,7 +27,7 @@ public class SceneController : MonoBehaviour
       if (scene.name == Constants.environmentScene && mode == LoadSceneMode.Additive)
       {
          SceneManager.sceneLoaded -= OnLaunchXperience;
-         _gvrEditorEmulator.enabled = false;
+         //_gvrEditorEmulator.enabled = false;
          _welcome.SetActive(true);
          _home.Launch();
       }
