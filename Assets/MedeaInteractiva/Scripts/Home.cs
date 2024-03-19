@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,6 +23,13 @@ public class Home : MonoBehaviour
     void Start()
     {
         return;
+        DOTween.Init();
+
+        StartCoroutine(StartAnim());
+    }
+
+    private void OnEnable()
+    {
         DOTween.Init();
 
         StartCoroutine(StartAnim());

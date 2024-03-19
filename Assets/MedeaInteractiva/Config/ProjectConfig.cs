@@ -1,8 +1,4 @@
-﻿using System;
-using System.Runtime.CompilerServices;
-using UnityEngine;
-using UnityEngine.Rendering;
-using UnityEngine.Serialization;
+﻿using UnityEngine;
 
 public  class ProjectConfig : MonoBehaviour
 {
