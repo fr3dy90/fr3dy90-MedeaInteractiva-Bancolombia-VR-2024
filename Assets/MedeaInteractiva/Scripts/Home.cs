@@ -20,25 +20,9 @@ public class Home : MonoBehaviour
     [SerializeField] private float timeScaleSpeed = 1;
 #pragma warning restore 0649
     
-    void Start()
-    {
-        return;
-        DOTween.Init();
-
-        StartCoroutine(StartAnim());
-    }
-
-    private void OnEnable()
-    {
-        DOTween.Init();
-
-        StartCoroutine(StartAnim());
-    }
-
     public void Launch()
     {
         DOTween.Init();
-
         StartCoroutine(StartAnim());
     }
 
@@ -136,7 +120,7 @@ public class Home : MonoBehaviour
 
     IEnumerator _LoadMenu()
     {
-        switch (ProjectConfig.Instance.actualPlatform)
+        switch (SceneController.Instance.actualPlatform)
         {
             case Platform.Android:
                 float seconds = ReticlePointerController.Instace.maxSliderValue;
@@ -161,7 +145,7 @@ public class Home : MonoBehaviour
 
     public void LoadMoment1()
     {
-        switch (ProjectConfig.Instance.actualPlatform)
+        switch (SceneController.Instance.actualPlatform)
         {
             case Platform.Android:
                 StartCoroutine(_LoadMoment1());

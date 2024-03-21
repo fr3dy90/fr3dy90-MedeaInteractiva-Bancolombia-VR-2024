@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -199,6 +199,7 @@ GameObject:
   - component: {fileID: 215514378}
   - component: {fileID: 215514377}
   - component: {fileID: 215514376}
+  - component: {fileID: 215514379}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -218,7 +219,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1423999642}
-  m_Father: {fileID: 1699175183}
+  m_Father: {fileID: 1604522022}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -286,6 +287,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!225 &215514379
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215514374}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1423999641
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,7 +389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1604522021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -389,8 +402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 050c3e786d63d8847bb4465d47d9a608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _cgFade: {fileID: 0}
-  _fadeParent: {fileID: 0}
+  canvasGroup: {fileID: 215514379}
+  fadeDuration: 1
 --- !u!4 &1604522022
 Transform:
   m_ObjectHideFlags: 0
@@ -402,7 +415,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1699175183}
+  - {fileID: 215514375}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -450,34 +463,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _fadeController: {fileID: 1604522021}
---- !u!1 &1699175182
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1699175183}
-  m_Layer: 0
-  m_Name: FadeContainer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1699175183
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699175182}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 215514375}
-  m_Father: {fileID: 1604522022}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
