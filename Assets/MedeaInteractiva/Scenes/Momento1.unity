@@ -3342,7 +3342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 2100000, guid: 51d65ef2c5992724591d474df0cab6f9, type: 2}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
@@ -6648,8 +6648,9 @@ GameObject:
   - component: {fileID: 352188093}
   - component: {fileID: 352188092}
   - component: {fileID: 352188091}
+  - component: {fileID: 352188095}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasAvatar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6735,6 +6736,18 @@ RectTransform:
   m_AnchoredPosition: {x: -0.296, y: -0.929}
   m_SizeDelta: {x: 256, y: 256}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &352188095
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 352188090}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &355296153
 GameObject:
   m_ObjectHideFlags: 0
@@ -22274,6 +22287,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1256959678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256959675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f3f69a3b7e3c55489456c112d441b68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1261394691
 GameObject:
   m_ObjectHideFlags: 0
@@ -27751,13 +27776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actualPlatform: 0
-  _fade: {fileID: 1648093441}
-  _curve:
-    serializedVersion: 2
-    m_Curve: []
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  _avatar: {fileID: 352188095}
   _home: {fileID: 1576937270}
   _welcome: {fileID: 1541219195}
   _gvrEditorEmulator: {fileID: 1771539729}
@@ -58175,6 +58194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983332561680999897, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
+        type: 3}
+      propertyPath: far clip plane
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6983332561842165395, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}

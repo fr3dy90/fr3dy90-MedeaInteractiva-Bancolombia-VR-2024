@@ -8,13 +8,10 @@ public class SceneController : MonoBehaviour
    [Header("Target Platform")]
    public Platform actualPlatform;
 
-   
-   [SerializeField] private CanvasGroup _fade;
-   [SerializeField] private AnimationCurve _curve;
+   [SerializeField] private CanvasGroup _avatar;
    [SerializeField] private Home _home;
    [SerializeField] private GameObject _welcome;
    [SerializeField] private GvrEditorEmulator _gvrEditorEmulator;
-
 
    private void Awake()
    {
@@ -38,6 +35,12 @@ public class SceneController : MonoBehaviour
    }
 
    private void OnPlayerRready()
+   {
+      StartCoroutine(Tools.Fade(0, 1, 2f, _avatar, OnFadeInAvatar));
+      _avatar.gameObject.SetActive(true);
+   }
+
+   private void OnFadeInAvatar()
    {
       
    }

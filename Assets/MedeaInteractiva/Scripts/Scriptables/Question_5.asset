@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7301bb1c3afe0ce46ab6d6c8d21152af, type: 3}
+  m_Name: Question_5
+  m_EditorClassIdentifier: 
+  question: "Si un cliente desea pagar una factura con un cheque de otra plaza\r\n\xBFqu\xE9
+    deber\xEDas hacer?"
+  answer:
+  - 'Decirle al cliente que no se reciben cheque de otra plaza para hacer pagos de
+
+    facturas.'
+  - Validar que el cheque este con los endosos y recibirle el pago
+  - Validar que el cheque este por el valor exacto de la factura y recibirle el pago
+  - Decirle al cliente que no recibimos pago de facturas en cheque

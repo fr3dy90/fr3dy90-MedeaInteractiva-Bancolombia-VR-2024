@@ -1,4 +1,5 @@
 ﻿using System;
+using Gvr.Internal;
 using UnityEngine;
 
 public  class CameraController : MonoBehaviour
@@ -22,6 +23,8 @@ public  class CameraController : MonoBehaviour
     [SerializeField] private CameraPosAndRot _lastCameraPosition;
     [SerializeField] private Transform cameraParent;
 
+    private Action OnComplete;
+    
     [ContextMenu("SetCamInit")]
     
     
@@ -34,7 +37,7 @@ public  class CameraController : MonoBehaviour
         }
         else
         {
-            //Destroy(this);
+            Destroy(this);
         }
         
         if (_animatorController == null)
@@ -77,7 +80,7 @@ public  class CameraController : MonoBehaviour
         SetCameraComponents(actualPlatform);
         SetCameraInitialPosition(CameraState.Start);
         _animatorController.SetTrigger(_animatorTrigger);
-        OnIntroFinished(onComplete);
+       OnComplete = onComplete;
     }
 
     private void SetCameraInitialPosition(CameraState actualCamState)
@@ -95,10 +98,11 @@ public  class CameraController : MonoBehaviour
         }
     }
     
-    private void OnIntroFinished(Action onComplete = null)
+    public void OnIntroFinished()
     {
         SetCameraInitialPosition(CameraState.End);
-        onComplete?.Invoke();
+        OnComplete?.Invoke();
+        OnComplete = null;
     }
 
     private void SetCamInit()
