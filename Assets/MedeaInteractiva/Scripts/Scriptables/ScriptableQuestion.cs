@@ -3,12 +3,21 @@
 [CreateAssetMenu(fileName = "Question", menuName = "ScriptableObjects/Question")]
 public class ScriptableQuestion : ScriptableObject
 {
- [TextArea(3,10)]
- public string question;
- 
- [TextArea(3,10)]
- public string[] answer;
- 
- public const int correctAnswer = 0;
- 
+    public Question[] questions;
+}
+
+[System.Serializable]
+public struct Question
+{
+    [TextArea(2,10)]
+    public string question;
+    public Answer[] answer;
+}
+
+[System.Serializable]
+public struct Answer
+{
+    [TextArea(2,5)]
+    public string answer;
+    public bool isCorrect;
 }
