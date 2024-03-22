@@ -3296,7 +3296,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160872006}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 00494a58d3e600f4992e168f07c9652f, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: cbe4419336f60be40a84bd9efa4e6d3f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -6723,18 +6723,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352188090}
-  m_LocalRotation: {x: -0, y: 0.0325309, z: -0, w: 0.9994708}
+  m_LocalRotation: {x: -0, y: -0.010536057, z: -0, w: 0.9999445}
   m_LocalPosition: {x: 0, y: 0, z: 2.626}
-  m_LocalScale: {x: 0.004, y: 0.004, z: 1}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 1}
   m_Children:
   - {fileID: 160872007}
   m_Father: {fileID: 0}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 3.7280002, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -1.207, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.296, y: -0.929}
-  m_SizeDelta: {x: 256, y: 256}
+  m_AnchoredPosition: {x: -0.515, y: -0.619}
+  m_SizeDelta: {x: 1080, y: 1920}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &352188095
 CanvasGroup:
