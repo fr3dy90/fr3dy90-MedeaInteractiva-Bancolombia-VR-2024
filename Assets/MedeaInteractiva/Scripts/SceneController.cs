@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.Video;
 
 public class SceneController : MonoBehaviour
 {
@@ -36,12 +38,27 @@ public class SceneController : MonoBehaviour
 
    private void OnPlayerRready()
    {
-      StartCoroutine(Tools.Fade(0, 1, 2f, _avatar, OnFadeInAvatar));
+      StartCoroutine(Tools.Fade(0, 1, 2f, _avatar));
       _avatar.gameObject.SetActive(true);
+      _avatar.GetComponent<VideoPlayer>().Play();
+      StartCoroutine(OnFadeInAvatar((float)_avatar.GetComponentInChildren<VideoPlayer>().clip.length));
    }
 
-   private void OnFadeInAvatar()
+   private IEnumerator OnFadeInAvatar(float _lenght)
    {
+      float currentTime = 0f;
+      while (currentTime < _lenght)
+      {
+         currentTime += Time.deltaTime;
+         yield return null;
+      }
       
+      StartCoroutine(Tools.Fade(0, 1, 2f, _avatar, OnLaunch_Home));
+      _avatar.gameObject.SetActive(false);
+   }
+
+   private void OnLaunch_Home()
+   {
+      _home.Launch();
    }
 }

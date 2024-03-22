@@ -6,7 +6,7 @@ using UnityEngine;
 
 public static class Tools 
 {
-    public static IEnumerator Fade(int _start, int _target, float _duration, CanvasGroup _canvasGroup, Action onComplete)
+    public static IEnumerator Fade(int _start, int _target, float _duration, CanvasGroup _canvasGroup, Action onComplete = null)
     {
         {
             float currentTime = 0f;
