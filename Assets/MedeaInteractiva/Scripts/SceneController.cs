@@ -40,7 +40,7 @@ public class SceneController : MonoBehaviour
    {
       StartCoroutine(Tools.Fade(0, 1, 2f, _avatar));
       _avatar.gameObject.SetActive(true);
-      _avatar.GetComponent<VideoPlayer>().Play();
+      _avatar.GetComponentInChildren<VideoPlayer>().Play();
       StartCoroutine(OnFadeInAvatar((float)_avatar.GetComponentInChildren<VideoPlayer>().clip.length));
    }
 

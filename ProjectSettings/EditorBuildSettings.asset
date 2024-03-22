@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/MedeaInteractiva/Scenes/GameManager.unity
+    guid: 42368a49edde71842bd3a694cea03a87
+  - enabled: 1
     path: Assets/MedeaInteractiva/Scenes/Momento1.unity
     guid: 6344afd2f98d08844910713c9f7f9cc4
   - enabled: 1
