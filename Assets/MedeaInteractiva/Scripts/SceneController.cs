@@ -14,6 +14,9 @@ public class SceneController : MonoBehaviour
    [SerializeField] private Home _home;
    [SerializeField] private GameObject _welcome;
    [SerializeField] private GvrEditorEmulator _gvrEditorEmulator;
+   
+   [SerializeField] private VideoPlayer _videoPlayer;
+   [SerializeField] private LayerMask _layerAvatar;
 
    private void Awake()
    {
@@ -26,6 +29,8 @@ public class SceneController : MonoBehaviour
       {
          Destroy(this);
       }
+
+      _videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "AvatarIntro.mp4");
    }
 
    public void OnLaunchXperience()
@@ -38,10 +43,17 @@ public class SceneController : MonoBehaviour
 
    private void OnPlayerRready()
    {
-      StartCoroutine(Tools.Fade(0, 1, 2f, _avatar));
+      StartCoroutine(SetLayer());
       _avatar.gameObject.SetActive(true);
-      _avatar.GetComponentInChildren<VideoPlayer>().Play();
-      StartCoroutine(OnFadeInAvatar((float)_avatar.GetComponentInChildren<VideoPlayer>().clip.length));
+      _videoPlayer.Play();
+      StartCoroutine(OnFadeInAvatar(28f));
+      //StartCoroutine(OnFadeInAvatar((float)_avatar.GetComponentInChildren<VideoPlayer>().clip.length));
+   }
+
+   private IEnumerator SetLayer()
+   {
+      yield return new WaitForSeconds(.3f);
+      _videoPlayer.gameObject.layer = _layerAvatar;
    }
 
    private IEnumerator OnFadeInAvatar(float _lenght)

@@ -24,6 +24,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _Threshold: 0.258
+    - _Threshold: 0.2
     m_Colors:
     - _ColorToRemove: {r: 0.98823535, g: 0.98823535, b: 0.98823535, a: 1}

@@ -23,6 +23,7 @@ public class FadeController : MonoBehaviour
             OnFadeInComplete?.Invoke();
             fadeInCompleteCallback?.Invoke(); 
         }));
+        OnSetConfig(false);
     }
 
     

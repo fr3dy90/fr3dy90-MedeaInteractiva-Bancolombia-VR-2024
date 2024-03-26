@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
                 break;
             case "Momento1":
                 LoaderScenes(ScenesNames.Oficina_Model);
+                SceneManager.SetActiveScene(_scene);
                 break;
             case "Oficina_Model":
                 _fadeController.FadeIn(OnLaunchExperience);

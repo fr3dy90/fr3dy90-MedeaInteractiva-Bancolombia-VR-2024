@@ -1149,7 +1149,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &45271207
 GameObject:
@@ -2988,7 +2988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &153911315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3079,8 +3079,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 7354039561668783007}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &155377026
 GameObject:
@@ -3262,7 +3262,7 @@ GameObject:
   - component: {fileID: 160872010}
   - component: {fileID: 160872008}
   - component: {fileID: 160872011}
-  m_Layer: 5
+  m_Layer: 14
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3296,7 +3296,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160872006}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: cbe4419336f60be40a84bd9efa4e6d3f, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 00494a58d3e600f4992e168f07c9652f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3306,7 +3306,7 @@ VideoPlayer:
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
@@ -3320,7 +3320,7 @@ VideoPlayer:
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 0
-  m_WaitForFirstFrame: 1
+  m_WaitForFirstFrame: 0
   m_FrameReadyEventEnabled: 0
 --- !u!222 &160872010
 CanvasRenderer:
@@ -6655,7 +6655,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &352188091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6729,7 +6729,7 @@ RectTransform:
   m_Children:
   - {fileID: 160872007}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: -1.207, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10241,7 +10241,7 @@ Transform:
   - {fileID: 926726021}
   - {fileID: 209545854}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &570901638 stripped
 GameObject:
@@ -13376,7 +13376,7 @@ Transform:
   m_Children:
   - {fileID: 1648093437}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &689381434
 GameObject:
@@ -27780,6 +27780,10 @@ MonoBehaviour:
   _home: {fileID: 1576937270}
   _welcome: {fileID: 1541219195}
   _gvrEditorEmulator: {fileID: 1771539729}
+  _videoPlayer: {fileID: 160872008}
+  _layerAvatar:
+    serializedVersion: 2
+    m_Bits: 32
 --- !u!4 &1606728873
 Transform:
   m_ObjectHideFlags: 0
@@ -30576,7 +30580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 498412, guid: 970dd4b9371394fb4890965f608d46fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33480,7 +33484,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1992258214
 GameObject:
@@ -33983,7 +33987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2036527160
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36337,7 +36341,7 @@ Transform:
   - {fileID: 769924297}
   - {fileID: 1047105705}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2138677391
 GameObject:
@@ -36448,7 +36452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41264,7 +41268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7354039561668783005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41400,10 +41404,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 153911316}
+  m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7354039561700408928
 GameObject:
@@ -58196,10 +58199,20 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6983332561680999892, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
+        type: 3}
+      propertyPath: raycasterEventMask.m_Bits
+      value: 16183
+      objectReference: {fileID: 0}
     - target: {fileID: 6983332561680999897, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}
       propertyPath: far clip plane
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6983332561680999897, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 16183
       objectReference: {fileID: 0}
     - target: {fileID: 6983332561842165395, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}
@@ -58209,7 +58222,7 @@ PrefabInstance:
     - target: {fileID: 6983332561867778194, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6983332561867778194, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}
