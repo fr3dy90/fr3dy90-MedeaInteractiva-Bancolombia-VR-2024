@@ -4,11 +4,11 @@ using UnityEngine.UI;
 
 public class QuestionsView : MonoBehaviour
 {
-  [SerializeField] private TextMeshProUGUI _txtQuestion;
-  [SerializeField] private TextMeshProUGUI A_txtAnswer;
-  [SerializeField] private TextMeshProUGUI B_txtAnswer;
-  [SerializeField] private TextMeshProUGUI C_txtAnswer;
-  [SerializeField] private TextMeshProUGUI D_txtAnswer;
+  [SerializeField] private TMP_Text _txtQuestion;
+  [SerializeField] private TMP_Text A_txtAnswer;
+  [SerializeField] private TMP_Text B_txtAnswer;
+  [SerializeField] private TMP_Text C_txtAnswer;
+  [SerializeField] private TMP_Text D_txtAnswer;
   [SerializeField] private Color _colorRight;
   [SerializeField] private Color _colorWrong;
   [SerializeField] private Image _imageRight;

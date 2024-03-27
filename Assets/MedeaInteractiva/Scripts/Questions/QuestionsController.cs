@@ -9,10 +9,15 @@ public class QuestionsController : MonoBehaviour
    [SerializeField] private ScriptableQuestion _questions;
    [SerializeField] private int _index;
 
-   private void Awake()
+   private void Update()
    {
-      SetQuestion();
+      if (Input.GetButtonDown("Jump"))
+      {
+         SetQuestion();
+      }
    }
+   
+   
 
    public void SetQuestion()
    {
