@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4e822ff4f0208a488cc9ac55bfa31f8, type: 3}
+  m_Name: Elements
+  m_EditorClassIdentifier: 
+  elements:
+  - _title: Humedecedor de dedos
+    description: 'Te ayuda a agilizar el conteo de los billetes facilitando su agarre. '
+    sprite: {fileID: 21300000, guid: e1c238a050286f24e8a70bd51930d11d, type: 3}
+    isViewed: 0
+  - _title: Monedero
+    description: "Ayuda con el orden y disposici\xF3n de las monedas en el puesto. "
+    sprite: {fileID: 21300000, guid: 1157847bc72601843bec59c79db05f4b, type: 3}
+    isViewed: 0
+  - _title: "M\xE1quina contadora de billetes"
+    description: "Clasifica, cuenta y valida la autenticidad de los billetes cuando
+      se tienen altos flujos de efectivo.\_"
+    sprite: {fileID: 21300000, guid: 56465fe775ca58748bc119ba70db0e03, type: 3}
+    isViewed: 0
+  - _title: "Lector de identificaci\xF3n biom\xE9trica"
+    description: "Autentica la identidad del cliente mediante la huella digital cuando
+      la operaci\xF3n, por seguridad, requiere esta verificaci\xF3n. "
+    sprite: {fileID: 21300000, guid: dc9eea491c4cf7844bdbacba09b3e829, type: 3}
+    isViewed: 0
+  - _title: Pin pad
+    description: "Lee las tarjetas d\xE9bito y cr\xE9dito para realizar transferencias,
+      retiros y pagos. "
+    sprite: {fileID: 21300000, guid: 3c64c84928e2f0345b83e7d1416515c0, type: 3}
+    isViewed: 0
+  - _title: Organizador (palomera)
+    description: "Facilita mantener en orden los soportes f\xEDsicos de las transacciones
+      que deban ser enviados a gesti\xF3n documental."
+    sprite: {fileID: 21300000, guid: 27828f65e7a4b334e901182245c2b3a1, type: 3}
+    isViewed: 0
+  - _title: "Lector de c\xF3digo de barras"
+    description: "Escanea los c\xF3digos de barras presentes en facturas, declaraciones
+      y cheques Bancolombia. "
+    sprite: {fileID: 21300000, guid: cfb3683d1b7fb544588ac6370bb36c44, type: 3}
+    isViewed: 0
+  - _title: Tinta de seguridad
+    description: "Humedece los sellos para tener una impresi\xF3n clara sobre el
+      papel."
+    sprite: {fileID: 21300000, guid: c96f6b641e4ac334f8d8a73bd7db841e, type: 3}
+    isViewed: 0
+  - _title: Removedor
+    description: "Verifica la autenticidad de los cheques. Se aplica sobre el n\xFAmero
+      consecutivo de estos."
+    sprite: {fileID: 21300000, guid: 6d39bf01c9d9f2141a9f6f7af52a8cf3, type: 3}
+    isViewed: 0
+  - _title: Hipoclorito
+    description: "Verifica la autenticidad de los cheques o t\xEDtulos valor. Se
+      aplica sobre un espacio en blanco del papel."
+    sprite: {fileID: 21300000, guid: 75a38268e77b4054489b6aacdb2612b6, type: 3}
+    isViewed: 0
+  - _title: Copitos
+    description: "Sirve para aplicar el removedor o el hipoclorito sobre los cheques
+      o los t\xEDtulos valor. "
+    sprite: {fileID: 21300000, guid: 59c05cb170b70c049a7b0fca2e1aade8, type: 3}
+    isViewed: 0
+  - _title: Probadora de valores
+    description: "Usada para verificar la autenticidad de los cheques Bancolombia,
+      los billetes o las c\xE9dulas de ciudadan\xEDa. "
+    sprite: {fileID: 21300000, guid: 085c040569d43e64bbd1a9378fd5fa77, type: 3}
+    isViewed: 0
+  - _title: Fajillas
+    description: "sirven para amarrar fajos de 100 billetes seg\xFAn su denominaci\xF3n."
+    sprite: {fileID: 21300000, guid: 7775b5b173c14264d916f01830026ce3, type: 3}
+    isViewed: 0
+  - _title: Brocha
+    description: "Limpia part\xEDculas de la m\xE1quina contadora de billetes. "
+    sprite: {fileID: 21300000, guid: 65b9a4d285e42164d8449683e92331e7, type: 3}
+    isViewed: 0
+  - _title: Sellos
+    description: "usados\_para\_estampar\_un mensaje en los documentos asociados
+      con las diferentes transacciones, con el fin de certificarlos. Algunos son: 
+      Sello Recibido sin pago. Sello Recibido con pago. Sello Recibido pagado. Sello
+      de Canje. "
+    sprite: {fileID: 21300000, guid: 1eeb96603cd8808439303b6637c333f5, type: 3}
+    isViewed: 0
+  - _title: "M\xE1quina Imprinter"
+    description: "Registra manualmente los pagos con tarjeta de cr\xE9dito"
+    sprite: {fileID: 21300000, guid: 02359ab69657d6e499fdb32191f60f55, type: 3}
+    isViewed: 0
+  - _title: Validadora
+    description: "Timbra los soportes de las transacciones realizadas por los clientes.\_"
+    sprite: {fileID: 21300000, guid: 872379b24d88a8048a3a7fbadf47af6b, type: 3}
+    isViewed: 0
+  - _title: Plantilla foami para sellos
+    description: "Permite que la impresi\xF3n de los sellos sobre el papel sea lo
+      m\xE1s legible posible.\_"
+    sprite: {fileID: 21300000, guid: 57a427f7b976d5e46bafe7bf6b940918, type: 3}
+    isViewed: 0
+  - _title: Cofre
+    description: Utilizado para custodiar temporalmente los fajos de billetes durante
+      la jornada laboral.
+    sprite: {fileID: 21300000, guid: b3437eed1f98d54479b1b26e19fac060, type: 3}
+    isViewed: 0
+  - _title: "Bot\xF3n de P\xE1nico"
+    description: "Env\xEDa un mensaje de alerta a la Polic\xEDa y al \xE1rea de seguridad
+      del Banco y se usa solo ante una situaci\xF3n de alerta o sospecha."
+    sprite: {fileID: 21300000, guid: d23f0a7a5f32f884aa376278a01c396d, type: 3}
+    isViewed: 0
+  - _title: Protectora de valores
+    description: "Utilizada para perforar y marcar en tinta el valor que se est\xE9
+      registrando en un t\xEDtulo valor con el fin de dar mayor respaldo o seguridad
+      a ese t\xEDtulo."
+    sprite: {fileID: 21300000, guid: d51b445abffd9194b89d1ea13effdf33, type: 3}
+    isViewed: 0
+  - _title: Huellero
+    description: Se utiliza para entintar el dedo de la mano y dejar su hulla registrada
+      en alguno de los documentos que deba dejar el cliente al Banco como soporte.
+    sprite: {fileID: 21300000, guid: adfb448637deb7e45b6085465c037dc3, type: 3}
+    isViewed: 0
+  - _title: "Otros elementos de oficina que tendr\xE1s"
+    description: 'Perforadora, tijeras, cosedora, sacaganchos. '
+    sprite: {fileID: 21300000, guid: 78867862528ed994abbd5c2b10b25733, type: 3}
+    isViewed: 0
+  currentElement:
+    _title: 
+    description: 
+    sprite: {fileID: 0}
+    isViewed: 0
+  selectedColor: {r: 0.98823535, g: 0.854902, b: 0.14117648, a: 1}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}

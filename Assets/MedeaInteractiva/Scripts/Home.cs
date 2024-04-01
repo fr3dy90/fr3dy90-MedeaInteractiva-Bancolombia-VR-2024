@@ -37,7 +37,14 @@ public class Home : MonoBehaviour
         sequenceObject[0].SetActive(false);
         sequenceObject[1].SetActive(true);
         yield return new WaitForSeconds(1.0f);
-        StartCoroutine(StartInstruction());
+        if (SceneController.Instance.actualPlatform == Platform.Android)
+        {
+            StartCoroutine(StartInstruction());
+        }
+        else
+        {
+            LoadMenuExternal();
+        }
     }
 
     IEnumerator StartInstruction()

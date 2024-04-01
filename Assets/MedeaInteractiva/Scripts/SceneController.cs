@@ -53,7 +53,7 @@ public class SceneController : MonoBehaviour
    private IEnumerator SetLayer()
    {
       yield return new WaitForSeconds(.3f);
-      _videoPlayer.gameObject.layer = _layerAvatar;
+      //_videoPlayer.gameObject.layer = _layerAvatar;
    }
 
    private IEnumerator OnFadeInAvatar(float _lenght)
