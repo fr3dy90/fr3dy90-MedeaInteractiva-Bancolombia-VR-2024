@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using Gvr.Internal;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -114,6 +116,7 @@ public class LevelGame2 : MonoBehaviour
     public TextMeshProUGUI txtPuntaje;
 
     public GameObject home;
+    public static Action<int> SetIndexGame;
 
     void Awake()
     {
@@ -126,6 +129,13 @@ public class LevelGame2 : MonoBehaviour
             instance = this;
 
         //DOTween.Init();
+
+        SetIndexGame += CallGame;
+    }
+
+    private void CallGame(int index)
+    {
+        Game(index);
     }
 
     void OnEnable()

@@ -445,7 +445,7 @@ public class LevelGame1 : MonoBehaviour
 
 
             home.GetComponent<Home>().LoadMenuExternal();
-            home.GetComponent<Home>()OnCompletedClasifica();
+            home.GetComponent<Home>().OnCompletedClasifica();
 
             //ReticlePointerController.Instace.ready = false;
             //}

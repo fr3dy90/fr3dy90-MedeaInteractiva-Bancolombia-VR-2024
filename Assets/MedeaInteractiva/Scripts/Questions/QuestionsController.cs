@@ -22,8 +22,20 @@ public class QuestionsController : MonoBehaviour
 
    private void Start()
    {
+      SetQuestion(SetAnswers);
       _parent.gameObject.SetActive(false);
+      _questionsView.buttonContinue.onClick.AddListener(() =>
+      {
+         StartCoroutine(Tools.Fade(1,0, 1f, _canvasGroup, OnEnded));
+      });
       //StartQuestions();
+   }
+   
+   private void OnEnded()
+   {
+      _canvasGroup.alpha = 0;
+      LevelGame2.SetIndexGame?.Invoke(15);
+      _parent.gameObject.SetActive(false);
    }
    
    public void StartQuestions()
@@ -35,7 +47,6 @@ public class QuestionsController : MonoBehaviour
 
    private void OnInit()
    {
-      SetQuestion(SetAnswers);
       for (int i = 0; i < _questions.questions.Length; i++)
       {
          _questions.questions[i].isSelected = false;
