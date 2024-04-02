@@ -10,6 +10,13 @@ using DG.Tweening;
 public class Home : MonoBehaviour
 {
 #pragma warning disable 0649
+    [SerializeField] private ConoceController _conoceController;
+    [SerializeField] private Button _conoce;
+    [SerializeField] private Button _clacifica;
+    [SerializeField] private Button _conecta;
+
+    private Button[] _homeButons;
+
     [SerializeField] private GameObject[] sequenceObject;
     [SerializeField] private GameObject[] level_menu;
     [SerializeField] private GameObject[] level_home;
@@ -19,11 +26,20 @@ public class Home : MonoBehaviour
     [SerializeField] private AudioClip[] _clip;
     [SerializeField] private float timeScaleSpeed = 1;
 #pragma warning restore 0649
-    
+    private void HandleButtons(int index)
+    {
+        for (int i = 0; i < _homeButons.Length; i++)
+        {
+            _homeButons[i].interactable = i <= index;
+        }
+    }
     public void Launch()
     {
         DOTween.Init();
         StartCoroutine(StartAnim());
+        _conoce.onClick.AddListener(()=> ConoceController.OnInitScreen(0, false, null));
+        _homeButons = new []{_conoce, _clacifica, _conecta};
+        HandleButtons(0);
     }
 
     public void Update()

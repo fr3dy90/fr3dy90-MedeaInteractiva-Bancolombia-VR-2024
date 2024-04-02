@@ -11679,6 +11679,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Conoce
       objectReference: {fileID: 0}
+    - target: {fileID: 7848618490275772007, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cd6a5ef79bb93b449ed5d666103faa9, type: 3}
 --- !u!1 &626261539
@@ -15942,6 +15947,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 858542330}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &858743038 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5714030324066594921, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
+    type: 3}
+  m_PrefabInstance: {fileID: 622441945}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d256b3cacdb0c354cb591bb69b574b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &864616917
 GameObject:
   m_ObjectHideFlags: 0
@@ -27302,6 +27319,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2aa1f8ede6dbb746934959cce825b90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _conoceController: {fileID: 858743038}
+  _conoce: {fileID: 724748512}
+  _clacifica: {fileID: 282953391}
+  _conecta: {fileID: 673696044}
   sequenceObject:
   - {fileID: 1647923990}
   - {fileID: 1557252518}
