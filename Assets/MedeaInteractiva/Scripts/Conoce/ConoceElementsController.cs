@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class ConoceElementsController : BaseController
 {
@@ -9,12 +10,10 @@ public class ConoceElementsController : BaseController
     [SerializeField] private Transform _leftContainer;
     [SerializeField] private GameObject _prefElement;
     [SerializeField] private List<ElementController> _elementsList;
+    [TextArea(10,5), SerializeField] private string _headerIntroText;
 
 
-    private void Start()
-    {
-        //Init();
-    }
+   
 
     public override void Init()
     {
@@ -27,11 +26,20 @@ public class ConoceElementsController : BaseController
             _elementsList.Add(elementController);
             elementController.GetComponent<Button>().onClick.AddListener(() => OnSelectElement(elementController));
         }
+        OnSelectElement(_elementsList[0]);
+        _conoceElementsView._exitButton.onClick.AddListener(OnClose);
+        _conoceElementsView._headerSubtitle.text = _headerIntroText;
     }
 
     public void onUpdateGrid()
     {
-        
+        foreach (ElementController _elementController in _elementsList)
+        {
+            if (_elementController.GetElement().isViewed)
+            {
+                OnSelectElement(_elementController);
+            }
+        }
     }
 
     private void OnSelectElement(ElementController _elementController)
@@ -39,5 +47,10 @@ public class ConoceElementsController : BaseController
         _conoceElementsView.OnUpdateView(_elementController.GetElement());
         _elementController.OnSelect(_elements.selectedColor);
         
+    }
+    
+    private void OnClose()
+    {
+        ConoceController.OnClose?.Invoke();
     }
 }

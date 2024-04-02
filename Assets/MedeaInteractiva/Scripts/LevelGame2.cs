@@ -56,6 +56,8 @@ public class LevelGame2 : MonoBehaviour
     [SerializeField] private GameObject continueWindowObject;
     [SerializeField] private GameObject[] nextPartConfigurationON;
     [SerializeField] private GameObject[] nextPartConfigurationOFF;
+    
+    [SerializeField] private QuestionsController _questionsController;
 
     public static LevelGame2 Instance { get => instance; set => instance = value; }
 
@@ -334,6 +336,9 @@ public class LevelGame2 : MonoBehaviour
                 break;
             case 14:
                 felicitacionesNivel[2].SetActive(false);
+                _questionsController.StartQuestions();
+                break;
+            case 15:
                 PlayAudioLocution(4);
                 txtPuntaje.text = "Tu puntaje: " + contEstrellas.ToString();
                 sequenceObject[6].SetActive(true);

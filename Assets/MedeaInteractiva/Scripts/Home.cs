@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEditor;
 
 [System.Serializable]
 
@@ -14,6 +15,8 @@ public class Home : MonoBehaviour
     [SerializeField] private Button _conoce;
     [SerializeField] private Button _clacifica;
     [SerializeField] private Button _conecta;
+    [SerializeField] private Phase _actualPhase = Phase.Home;
+    
 
     private Button[] _homeButons;
 
@@ -26,6 +29,23 @@ public class Home : MonoBehaviour
     [SerializeField] private AudioClip[] _clip;
     [SerializeField] private float timeScaleSpeed = 1;
 #pragma warning restore 0649
+    private void Start()
+    {
+        _conoceController.onComplete += OnCompleteConoce;
+    }
+
+    private void OnCompleteConoce()
+    {
+        HandleButtons(1);
+        setPhase(Phase.Menu);
+    }
+
+    public void OnCompletedClasifica()
+    {
+        HandleButtons(2);
+        setPhase(Phase.Menu);
+    }
+
     private void HandleButtons(int index)
     {
         for (int i = 0; i < _homeButons.Length; i++)
@@ -37,7 +57,11 @@ public class Home : MonoBehaviour
     {
         DOTween.Init();
         StartCoroutine(StartAnim());
-        _conoce.onClick.AddListener(()=> ConoceController.OnInitScreen(0, false, null));
+        _conoce.onClick.AddListener(()=>
+        {
+            ConoceController.OnInitScreen(0, false, null);
+            setPhase(Phase.Conoce);
+        });
         _homeButons = new []{_conoce, _clacifica, _conecta};
         HandleButtons(0);
     }
@@ -60,6 +84,29 @@ public class Home : MonoBehaviour
         else
         {
             LoadMenuExternal();
+        }
+    }
+    
+    private void setPhase(Phase phase)
+    {
+        foreach (GameObject component in level_home)
+        {
+            component.SetActive(phase == Phase.Home);
+        }
+        
+        foreach(GameObject component in level_momento_1)
+        {
+            component.SetActive(phase == Phase.Moment1);
+        }
+        
+        foreach (GameObject component in level_momento_2)
+        {
+            component.SetActive(phase == Phase.Moment2);
+        }
+
+        foreach (GameObject component in level_menu)
+        {
+            component.SetActive(phase == Phase.Menu);
         }
     }
 
@@ -239,4 +286,13 @@ public class Home : MonoBehaviour
         _audio.Play();
 
     }
+}
+
+public enum Phase
+{
+    Home,
+    Moment1,
+    Moment2,
+    Menu,
+    Conoce
 }

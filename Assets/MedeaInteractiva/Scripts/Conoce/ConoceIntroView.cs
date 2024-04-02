@@ -11,4 +11,9 @@ public class ConoceIntroView : MonoBehaviour
     {
         _txtItro.text = intro;
     }
+
+    public void SetText(string txt)
+    {
+        _txtItro.text = txt;
+    }
 }

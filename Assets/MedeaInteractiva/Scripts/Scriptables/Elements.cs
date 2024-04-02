@@ -14,7 +14,9 @@ public class Elements : ScriptableObject
 public struct Element
 {
     [FormerlySerializedAs("name")] public string _title;
-    public string description;
+    [TextArea(8,4)]public string description;
     public Sprite sprite;
     public bool isViewed;
+    public Vector3 deseiredPosition;
+    public bool isFlip;
 }

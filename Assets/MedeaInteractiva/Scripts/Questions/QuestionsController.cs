@@ -11,15 +11,26 @@ public class QuestionsController : MonoBehaviour
    [SerializeField, InspectorButton("GetQuestion")]
    private string pressToShowQuestion;
    
+   [SerializeField] private CanvasGroup _canvasGroup;
    [SerializeField] private QuestionsView _questionsView;
    [SerializeField] private ScriptableQuestion _questions;
    [SerializeField] private int _indexQuestion;
+   
+   [SerializeField]private Transform _parent;
    
 
 
    private void Start()
    {
-      OnInit();
+      _parent.gameObject.SetActive(false);
+      //StartQuestions();
+   }
+   
+   public void StartQuestions()
+   {
+      _canvasGroup.alpha = 0;
+      _parent.gameObject.SetActive(true);
+      StartCoroutine(Tools.Fade(0,1, 1f, _canvasGroup, OnInit));
    }
 
    private void OnInit()

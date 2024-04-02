@@ -4,6 +4,7 @@ public class ConoceIntroController : BaseController
 {
     [SerializeField] private ConoceIntroView _conoceIntroView;
     [SerializeField] private int _index = 1;
+    [TextArea(10,4), SerializeField] private string _introText;
     
     private void Awake()
     {
@@ -16,5 +17,6 @@ public class ConoceIntroController : BaseController
     public override void Init()
    {
        base.Init();
+       _conoceIntroView.SetText(_introText);
    }
 }

@@ -8,15 +8,18 @@ public class ConoceController : MonoBehaviour
     [SerializeField] private Transform _parent;
     
     public static Action<int, bool, Action> OnInitScreen;
+    public static Action OnClose;
+    public Action onComplete;
 
     private void Awake()
     {
         OnInitScreen += ManageScreen;
+        OnClose += OnCLose;
         _parent.gameObject.SetActive(false);
     }
     
     private void Start()
-    {
+    { 
         //ManageScreen(0, false, null);
     }
 
@@ -59,5 +62,14 @@ public class ConoceController : MonoBehaviour
             }
         }
         onComplete?.Invoke();
+    }
+    
+    private void OnCLose()
+    {
+        StartCoroutine(Tools.Fade(1, 0, 1f, _canvasGroup, () =>
+        {
+            _parent.gameObject.SetActive(false);
+            onComplete?.Invoke();
+        }));
     }
 }
