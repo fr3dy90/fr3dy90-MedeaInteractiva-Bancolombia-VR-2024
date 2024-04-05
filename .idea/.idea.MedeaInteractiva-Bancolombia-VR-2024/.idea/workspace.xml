@@ -5,18 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0e1ff53-d060-4474-a07e-1c967b72b1a3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MedeaInteractiva-Bancolombia-VR-2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MedeaInteractiva-Bancolombia-VR-2024/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scenes/Momento1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scenes/Momento1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/OVRIntegration/Runtime/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Input.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/Scripts/Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime/ThirdParty.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Objects/Props/Torch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/Scripts/HandGrabUse.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples/ThirdParty.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/HandsInteraction.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Usage/HandsTrainExample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Usage/Passthrough.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Usage/SceneManager.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Usage/TouchPro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Demo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Features/Dictation/Scripts/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/PlatformCompatibility/Scripts/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/Dictation/Scripts/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features/TTS/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Lib/Conduit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Scripts/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "feature/new-environment",
+    "git-widget-placeholder": "Build-Android",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
