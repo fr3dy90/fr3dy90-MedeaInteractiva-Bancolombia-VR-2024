@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,23 +13,27 @@ public class Home : MonoBehaviour
 #pragma warning disable 0649
     [SerializeField]
     private GameObject[] sequenceObject;
+    [SerializeField] private GameObject[] level_home;
     [SerializeField] private GameObject[] level_menu;
-    [SerializeField]
-    private GameObject[] level_home;
-    [SerializeField]
-    private GameObject[] level_momento_1;
-    [SerializeField] private GameObject[] level_momento_2;
-    [SerializeField]
-    private AudioSource _audio;
-    [SerializeField]
-    private AudioClip[] _clip;
-    [SerializeField] private float timeScaleSpeed = 1;
-#pragma warning restore 0649
+    [SerializeField] private MenuButtons _menuButtons;
     
-    void Start()
+    [SerializeField] private GameObject[] level_momento_1;
+    [SerializeField] private GameObject[] level_momento_2;
+    [SerializeField] private AudioSource _audio;
+    [SerializeField] private AudioClip[] _clip;
+    [SerializeField] private float timeScaleSpeed = 1;
+    public static Action<int> OnSetIndex;
+#pragma warning restore 0649
+
+
+    private void Awake()
+    {
+        OnSetIndex += SetIndex;
+    }
+
+    public void  LaunchXperience()
     {
         DOTween.Init();
-
         StartCoroutine(StartAnim());
     }
 
@@ -37,6 +43,7 @@ public class Home : MonoBehaviour
     }
     IEnumerator StartAnim()
     {
+        sequenceObject[0].transform.parent.gameObject.SetActive(true);
         sequenceObject[0].SetActive(true);
         yield return new WaitForSeconds(2);
         sequenceObject[0].SetActive(false);
@@ -151,6 +158,14 @@ public class Home : MonoBehaviour
         StartCoroutine(_LoadMenu());
     }
 
+
+    void SetIndex(int index)
+    {
+        if (index >= _menuButtons.index)
+        {
+            _menuButtons.index = index;
+        }
+    }
     public void LoadMenuExternal()
     {
         foreach (GameObject component in level_home)
@@ -170,7 +185,49 @@ public class Home : MonoBehaviour
 
         foreach (GameObject component in level_menu)
         {
+            for (int i = 0; i < _menuButtons.butons.Length; i++)
+            {
+                _menuButtons.butons[i].interactable = i <= _menuButtons.index;
+                _menuButtons.butons[i].GetComponent<Collider>(). enabled = i <= _menuButtons.index;
+            }
             component.SetActive(true);
+        }
+    }
+    
+    public void LoadConoceExternal()
+    {
+        StartCoroutine(LoadConoce());
+    }
+
+    IEnumerator LoadConoce()
+    {
+        float seconds = ReticlePointerController.Instace.maxSliderValue;
+        ReticlePointerController.Instace.loading = true;
+
+        yield return new WaitForSeconds(seconds);
+
+        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
+        {
+            foreach(GameObject component in level_momento_1)
+            {
+                component.SetActive(false);
+            }
+            foreach (GameObject component in level_home)
+            {
+                component.SetActive(false);
+            }
+            foreach (GameObject component in level_momento_2)
+            {
+                component.SetActive(false);
+            }
+
+            foreach (GameObject component in level_menu)
+            {
+                component.SetActive(false);
+            }
+
+            SceneController.Instance.ChangeScene(MomentScene.Conoce);
+            ReticlePointerController.Instace.ready = false;
         }
     }
 
@@ -183,4 +240,11 @@ public class Home : MonoBehaviour
         _audio.Play();
 
     }
+}
+
+[System.Serializable]
+public struct MenuButtons
+{
+    public Button[] butons;
+    public int index;
 }

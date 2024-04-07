@@ -440,7 +440,7 @@ public class LevelGame1 : MonoBehaviour
             
             cierre.SetActive(false);
 
-
+            Home.OnSetIndex?.Invoke(2);
             home.GetComponent<Home>().LoadMenuExternal();
 
             ReticlePointerController.Instace.ready = false;

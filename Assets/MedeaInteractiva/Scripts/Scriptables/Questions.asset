@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7301bb1c3afe0ce46ab6d6c8d21152af, type: 3}
+  m_Name: Questions
+  m_EditorClassIdentifier: 
+  questions:
+  - question: "Si un cliente desea pagar una factura con un cheque de otra plaza\r\n\xBFqu\xE9
+      deber\xEDas hacer?"
+    answer:
+    - answer: Validar que el cheque este por el valor exacto de la factura y recibirle
+        el pago
+      isCorrect: 0
+      isSelected: 0
+    - answer: 'Decirle al cliente que no se reciben cheque de otra plaza para hacer
+        pagos de
+
+        facturas.'
+      isCorrect: 1
+      isSelected: 0
+    - answer: Validar que el cheque este con los endosos y recibirle el pago
+      isCorrect: 0
+      isSelected: 0
+    - answer: Decirle al cliente que no recibimos pago de facturas en cheque
+      isCorrect: 0
+      isSelected: 0
+    isSelected: 0
+  - question: "En caso de una emergencia, \xBFcu\xE1l es tu primera acci\xF3n?"
+    answer:
+    - answer: "Ignorar los sonidos hasta recibir instrucciones espec\xEDficas."
+      isCorrect: 0
+      isSelected: 0
+    - answer: "Usar el tel\xE9fono para llamar a la polic\xEDa."
+      isCorrect: 0
+      isSelected: 0
+    - answer: "Presionar el bot\xF3n de p\xE1nico siguiendo los protocolos de seguridad."
+      isCorrect: 1
+      isSelected: 0
+    - answer: Salir corriendo para protegerte.
+      isCorrect: 0
+      isSelected: 0
+    isSelected: 0
+  - question: "\xBFCu\xE1l es el prop\xF3sito de utilizar el humedecedor de dedos
+      en tu puesto de trabajo?"
+    answer:
+    - answer: Facilitar el conteo de billetes y prevenir errores.
+      isCorrect: 1
+      isSelected: 0
+    - answer: Ninguno, es solo una preferencia personal.
+      isCorrect: 0
+      isSelected: 0
+    - answer: Mejorar la higiene personal.
+      isCorrect: 0
+      isSelected: 0
+    - answer: "Usarlo como un m\xE9todo para detectar billetes falsos."
+      isCorrect: 0
+      isSelected: 0
+    isSelected: 0
+  - question: "Cuando un cliente se acerca a tu puesto con una consulta\n\xBFcu\xE1l
+      es el primer paso que debes tomar?"
+    answer:
+    - answer: "Saludarlo cordialmente, realizar preguntas de validaci\xF3n para entender
+        su necesidad y luego proceder seg\xFAn sea necesario."
+      isCorrect: 1
+      isSelected: 0
+    - answer: "Dirigirlo inmediatamente a otro compa\xF1ero."
+      isCorrect: 0
+      isSelected: 0
+    - answer: "Solicitar su identificaci\xF3n y proceder con la consulta."
+      isCorrect: 0
+      isSelected: 0
+    - answer: Ignorar el saludo y enfocarte en la velocidad del servicio.
+      isCorrect: 0
+      isSelected: 0
+    isSelected: 0
+  - question: "Si te encuentras con un billete que sospechas que es falso\n\xBFqu\xE9
+      deber\xEDas hacer?"
+    answer:
+    - answer: Usar las herramientas de seguridad para verificar la autenticidad del
+        billete y seguir el protocolo.
+      isCorrect: 1
+      isSelected: 0
+    - answer: Hacer un llamado de alerta inmediato sin verificar el billete.
+      isCorrect: 0
+      isSelected: 0
+    - answer: Aceptar el billete para no incomodar al cliente.
+      isCorrect: 0
+      isSelected: 0
+    - answer: "Devolver el billete al cliente sin m\xE1s acciones."
+      isCorrect: 0
+      isSelected: 0
+    isSelected: 0

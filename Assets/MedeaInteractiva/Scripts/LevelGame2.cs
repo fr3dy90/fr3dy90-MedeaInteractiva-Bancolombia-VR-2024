@@ -333,6 +333,9 @@ public class LevelGame2 : MonoBehaviour
                 break;
             case 14:
                 felicitacionesNivel[2].SetActive(false);
+               SceneController.Instance.ChangeScene(MomentScene.Preguntas);
+                break;
+            case 15:
                 PlayAudioLocution(4);
                 txtPuntaje.text = "Tu puntaje: " + contEstrellas.ToString();
                 sequenceObject[6].SetActive(true);
