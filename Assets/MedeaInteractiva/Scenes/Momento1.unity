@@ -3791,7 +3791,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2069513337}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 65.07101, y: -7.8080006, z: 0.837}
 --- !u!1001 &148598328
 PrefabInstance:
@@ -7506,7 +7506,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 99
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!1 &315552299
 GameObject:
@@ -13029,7 +13029,44 @@ MonoBehaviour:
   - eventID: 0
     callback:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 153911315}
+          m_MethodName: NextSequence
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 153911315}
+          m_MethodName: HideRetroalimentacion
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 985170074498564084}
+          m_MethodName: StopLoading
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &587216297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21722,13 +21759,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8295653841916729412, guid: 0cce47e4d38ede94eabc3ac00bead768,
         type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 6983332562467453027}
+    - target: {fileID: 8295653841916729412, guid: 0cce47e4d38ede94eabc3ac00bead768,
+        type: 3}
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8295653841916729412, guid: 0cce47e4d38ede94eabc3ac00bead768,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 99
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8295653841916729416, guid: 0cce47e4d38ede94eabc3ac00bead768,
         type: 3}
@@ -27520,13 +27562,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 11049919986835386, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
         type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 6983332562467453027}
+    - target: {fileID: 11049919986835386, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
+        type: 3}
       propertyPath: m_RenderMode
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11049919986835386, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 99
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3277344763247333334, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
         type: 3}
@@ -30476,7 +30523,7 @@ MonoBehaviour:
   _questionsController: {fileID: 1222274392}
   _momento1: {fileID: 153911315}
   _momento2: {fileID: 7354039561668783005}
-  actualmoment: 0
+  actualmoment: 3
   indexMenu: 0
 --- !u!4 &1484175752
 Transform:
@@ -31460,7 +31507,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 99
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1541219199
 RectTransform:
@@ -34711,7 +34758,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647923990}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -41944,12 +41991,12 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1664867240735260847}
   - {fileID: 56879355}
+  - {fileID: 147999738}
   - {fileID: 526175841}
   - {fileID: 708995238}
   - {fileID: 108946401}
-  - {fileID: 1664867240735260847}
-  - {fileID: 147999738}
   - {fileID: 1406397142}
   - {fileID: 1329865756}
   - {fileID: 1475115593}
@@ -44840,7 +44887,7 @@ Transform:
   - {fileID: 1427210627}
   - {fileID: 2000558366}
   m_Father: {fileID: 2069513337}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!23 &1664867240762820102
 MeshRenderer:
@@ -66713,7 +66760,7 @@ PrefabInstance:
     - target: {fileID: 6600706635788280260, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 99
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6983332561680999897, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}
