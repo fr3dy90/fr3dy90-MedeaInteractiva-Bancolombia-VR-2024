@@ -1,15 +1,11 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using CurvedUI;
 using UnityEngine.EventSystems;
 
 public class InputController : MonoBehaviour, IEventSystemHandler
 {
 #pragma warning disable 0649
 
-    [SerializeField]
-    CurvedUISettings mySettings;
     [SerializeField]
     Transform pivot;
     [SerializeField]
@@ -65,8 +61,7 @@ public class InputController : MonoBehaviour, IEventSystemHandler
         //pass ray to canvas
         myRay = new Ray(this.transform.position, this.transform.forward);
 
-        CurvedUIInputModule.CustomControllerRay = myRay;
-        CurvedUIInputModule.CustomControllerButtonState = Input.GetButton("Fire1") | OVRInput.Get(OVRInput.Button.PrimaryIndexTrigger);
+        
 
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(myRay, out hit, Mathf.Infinity))

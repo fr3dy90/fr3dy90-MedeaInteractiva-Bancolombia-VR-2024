@@ -188,7 +188,7 @@ public class Home : MonoBehaviour
             for (int i = 0; i < _menuButtons.butons.Length; i++)
             {
                 _menuButtons.butons[i].interactable = i <= _menuButtons.index;
-                _menuButtons.butons[i].GetComponent<Collider>(). enabled = i <= _menuButtons.index;
+                //_menuButtons.butons[i].GetComponent<Collider>(). enabled = i <= _menuButtons.index;
             }
             component.SetActive(true);
         }
