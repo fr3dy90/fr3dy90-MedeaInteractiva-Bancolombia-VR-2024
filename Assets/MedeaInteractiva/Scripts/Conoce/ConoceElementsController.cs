@@ -18,6 +18,7 @@ public class ConoceElementsController : BaseController
 
     public override void Init()
     {
+        if (isInit) return;
         base.Init();
         for (int i = 0; i < _elements.elements.Length; i++)
         {
@@ -50,7 +51,7 @@ public class ConoceElementsController : BaseController
         
     }
     
-    private void OnClose()
+    public void OnClose()
     {
         ConoceController.OnClose?.Invoke();
     }
