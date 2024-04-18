@@ -539,8 +539,8 @@ CanvasGroup:
   m_GameObject: {fileID: 13486644}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &13486650
 MonoBehaviour:
@@ -4866,8 +4866,8 @@ CanvasGroup:
   m_GameObject: {fileID: 190707429}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &190707435
 MonoBehaviour:
@@ -6922,7 +6922,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 282953394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1576937270}
+        m_MethodName: LoadMoment2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &282953392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7387,7 +7398,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1 &315552299
 GameObject:
@@ -8171,8 +8182,8 @@ CanvasGroup:
   m_GameObject: {fileID: 358639393}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &358639397
 MonoBehaviour:
@@ -8734,8 +8745,8 @@ CanvasGroup:
   m_GameObject: {fileID: 385105771}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &393461312
 GameObject:
@@ -13585,7 +13596,29 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 587216297}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 153911315}
+        m_MethodName: NextSequence
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 153911315}
+        m_MethodName: HideRetroalimentacion
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &588246976
 GameObject:
   m_ObjectHideFlags: 0
@@ -15996,7 +16029,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 673696047}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1576937270}
+        m_MethodName: LoadMoment1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &673696045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16374,7 +16418,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &689381434
 GameObject:
@@ -16754,8 +16798,8 @@ CanvasGroup:
   m_GameObject: {fileID: 703986786}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &703986792
 MonoBehaviour:
@@ -20426,8 +20470,8 @@ CanvasGroup:
   m_GameObject: {fileID: 924410285}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &924410289
 MonoBehaviour:
@@ -21423,8 +21467,8 @@ CanvasGroup:
   m_GameObject: {fileID: 957716842}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &957716846
 MonoBehaviour:
@@ -22359,12 +22403,12 @@ PrefabInstance:
     - target: {fileID: 3314533504038791564, guid: 0cce47e4d38ede94eabc3ac00bead768,
         type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3314533504038791564, guid: 0cce47e4d38ede94eabc3ac00bead768,
         type: 3}
       propertyPath: m_BlocksRaycasts
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3724194885524461947, guid: 0cce47e4d38ede94eabc3ac00bead768,
         type: 3}
@@ -22529,7 +22573,7 @@ PrefabInstance:
     - target: {fileID: 8295653841916729412, guid: 0cce47e4d38ede94eabc3ac00bead768,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8295653841916729416, guid: 0cce47e4d38ede94eabc3ac00bead768,
         type: 3}
@@ -25062,6 +25106,7 @@ GameObject:
   - component: {fileID: 1090467792}
   - component: {fileID: 1090467796}
   - component: {fileID: 1090467797}
+  - component: {fileID: 1090467793}
   m_Layer: 5
   m_Name: ButtonContinuar
   m_TagString: Untagged
@@ -25101,6 +25146,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e62188adca544cf1b96ccf1630f15f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1090467793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090467790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1090467794}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1576937270}
+        m_MethodName: LoadMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1090467794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26292,7 +26391,7 @@ Transform:
   - {fileID: 702983438}
   - {fileID: 16875683}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1151818420
 GameObject:
@@ -26670,6 +26769,72 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169390515}
   m_CullTransparentMesh: 0
+--- !u!1 &1169874853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1169874856}
+  - component: {fileID: 1169874855}
+  - component: {fileID: 1169874854}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1169874854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169874853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1169874855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169874853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1169874856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169874853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1204688998
 GameObject:
   m_ObjectHideFlags: 0
@@ -28462,11 +28627,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 828193708, guid: 7cd6a5ef79bb93b449ed5d666103faa9, type: 3}
       propertyPath: m_Interactable
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 828193708, guid: 7cd6a5ef79bb93b449ed5d666103faa9, type: 3}
       propertyPath: m_BlocksRaycasts
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11049919986835386, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
         type: 3}
@@ -28481,7 +28646,7 @@ PrefabInstance:
     - target: {fileID: 11049919986835386, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 482926064652546723, guid: 7cd6a5ef79bb93b449ed5d666103faa9,
         type: 3}
@@ -29742,8 +29907,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1390310589}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1390310593
 MonoBehaviour:
@@ -30190,7 +30355,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1411072479}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 153911315}
+        m_MethodName: EndMomento
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1427210626
 GameObject:
   m_ObjectHideFlags: 0
@@ -30327,8 +30503,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1434136132}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1434136138
 MonoBehaviour:
@@ -30744,8 +30920,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1454774369}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1454774373
 MonoBehaviour:
@@ -31177,7 +31353,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1483172517
 GameObject:
@@ -31295,7 +31471,7 @@ MonoBehaviour:
   _questionsController: {fileID: 1222274392}
   _momento1: {fileID: 153911315}
   _momento2: {fileID: 7354039561668783005}
-  actualmoment: 0
+  actualmoment: 2
   indexMenu: 0
 --- !u!4 &1484175752
 Transform:
@@ -32279,7 +32455,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!224 &1541219199
 RectTransform:
@@ -32581,8 +32757,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1557252518}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1001 &1560212504
 PrefabInstance:
@@ -33177,8 +33353,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1576809252}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1576809258
 MonoBehaviour:
@@ -33428,7 +33604,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1581847302}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1576937270}
+        m_MethodName: LoadConoceExternal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1582873259
 GameObject:
   m_ObjectHideFlags: 0
@@ -34149,7 +34336,7 @@ Transform:
   m_Children:
   - {fileID: 313755768}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1601054851
 GameObject:
@@ -35472,8 +35659,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1647923990}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1660082714
 GameObject:
@@ -36431,8 +36618,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1696213526}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1696213532
 MonoBehaviour:
@@ -38256,8 +38443,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1807247545}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &1807247552
 MonoBehaviour:
@@ -39641,8 +39828,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1892059854}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1902343686
 GameObject:
@@ -40043,8 +40230,8 @@ CanvasGroup:
   m_GameObject: {fileID: 1922692309}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &1936262925
 GameObject:
@@ -40191,7 +40378,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1936262929}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 153911315}
+        m_MethodName: NextSequence
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1940899703
 GameObject:
   m_ObjectHideFlags: 0
@@ -41957,8 +42155,8 @@ CanvasGroup:
   m_GameObject: {fileID: 2036527159}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &2036527166
 MonoBehaviour:
@@ -43526,8 +43724,8 @@ CanvasGroup:
   m_GameObject: {fileID: 2113915856}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &2115193416
 GameObject:
@@ -43983,7 +44181,7 @@ Transform:
   - {fileID: 466749001}
   - {fileID: 84399746}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2129097511
 PrefabInstance:
@@ -44096,71 +44294,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2129097511}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2141525700
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 761381335, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_Name
-      value: GvrEventSystem
-      objectReference: {fileID: 0}
-    - target: {fileID: 761381335, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 766346198, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1422168469, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
-      propertyPath: vrModeOnly
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 463285ecd6702471a909ba810832bf0e, type: 3}
 --- !u!1 &2143835599
 GameObject:
   m_ObjectHideFlags: 0
@@ -48726,7 +48859,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7354039561337915657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7354039561668783005}
+        m_MethodName: EndMomento
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &7354039561337915655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49330,8 +49474,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039561425232060}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039561425232033
 MonoBehaviour:
@@ -52040,8 +52184,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039561718912347}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039561718912351
 MonoBehaviour:
@@ -52246,8 +52390,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039561728849227}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039561728849329
 CanvasRenderer:
@@ -52859,8 +53003,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039561787990454}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039561787990460
 CanvasRenderer:
@@ -53003,8 +53147,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039561790669754}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039561790669759
 MonoBehaviour:
@@ -53251,8 +53395,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039561826052428}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039561826052529
 MonoBehaviour:
@@ -53380,8 +53524,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039561829119362}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039561829119368
 CanvasRenderer:
@@ -59861,8 +60005,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039562632140012}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!224 &7354039562632140015
 RectTransform:
@@ -60095,8 +60239,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039562641398411}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039562641398413
 MonoBehaviour:
@@ -60882,8 +61026,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039562700096588}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039562700096690
 CanvasRenderer:
@@ -62132,8 +62276,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039562863193516}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039562863193490
 CanvasRenderer:
@@ -62444,8 +62588,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039562868005100}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039562868005077
 CanvasRenderer:
@@ -63278,8 +63422,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039562947154566}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039562947154572
 CanvasRenderer:
@@ -64097,7 +64241,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7354039562990239323}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7354039561668783005}
+        m_MethodName: NextSequence
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7354039562994277336
 GameObject:
   m_ObjectHideFlags: 0
@@ -64342,8 +64497,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039563017210938}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039563017210943
 MonoBehaviour:
@@ -64495,8 +64650,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039563048661406}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039563048661379
 MonoBehaviour:
@@ -65031,8 +65186,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039563112926505}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039563112926511
 CanvasRenderer:
@@ -65765,8 +65920,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039563188191037}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039563188191039
 MonoBehaviour:
@@ -65920,8 +66075,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039563228774145}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!114 &7354039563228774147
 MonoBehaviour:
@@ -66605,8 +66760,8 @@ CanvasGroup:
   m_GameObject: {fileID: 7354039563289469940}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!222 &7354039563289469946
 CanvasRenderer:
@@ -67509,7 +67664,7 @@ PrefabInstance:
     - target: {fileID: 6600706635788280260, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6983332561680999892, guid: 91df2b80c4e9bbd4e8afc08516549ee8,
         type: 3}

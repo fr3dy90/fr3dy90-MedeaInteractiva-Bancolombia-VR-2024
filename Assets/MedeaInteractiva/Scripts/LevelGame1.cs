@@ -112,7 +112,7 @@ public class LevelGame1 : MonoBehaviour
 
     IEnumerator StartAnim(int sequence)
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
+        float seconds = 1;
         
         if(sequence == 0)
         {
@@ -120,11 +120,9 @@ public class LevelGame1 : MonoBehaviour
         }
         else if(sequence == 1)
         {
-            ReticlePointerController.Instace.loading = true;
 
             yield return new WaitForSeconds(seconds);
 
-            if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
             {
                 sequenceObject[0].SetActive(false);
                 sequenceObject[1].SetActive(true);
@@ -133,7 +131,6 @@ public class LevelGame1 : MonoBehaviour
                 sequenceObject[1].SetActive(false);
                 sequenceObject[2].SetActive(true);
         
-                ReticlePointerController.Instace.ready = false;
             }
         }
         else if (sequence == 2)
@@ -143,11 +140,9 @@ public class LevelGame1 : MonoBehaviour
         }
         else if (sequence == 3)
         {
-            ReticlePointerController.Instace.loading = true;
 
             yield return new WaitForSeconds(seconds);
 
-            if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
             {
                 sequenceObject[3].SetActive(false);
                 sequenceObject[4].SetActive(true);
@@ -161,7 +156,6 @@ public class LevelGame1 : MonoBehaviour
                 sequenceObject[6].SetActive(false);
                 cuentaRegresiva.SetActive(true);
 
-                ReticlePointerController.Instace.ready = false;
             }
         }        
         else if (sequence == 4)
@@ -177,19 +171,16 @@ public class LevelGame1 : MonoBehaviour
 
     IEnumerator _TryAgain()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
+        float seconds = 1;
 
-        ReticlePointerController.Instace.loading = true;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
-        {
+      {
             //cuentaRegresiva.SetActive(true);
             retroMal.SetActive(false);
             ResetData();
             NextSequence(0);
-            ReticlePointerController.Instace.ready = false;
         }
     }
 
@@ -226,16 +217,13 @@ public class LevelGame1 : MonoBehaviour
 
     IEnumerator _ResetData()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
 
             ResetData();
-            ReticlePointerController.Instace.ready = false;  
         }
     }
 
@@ -355,15 +343,12 @@ public class LevelGame1 : MonoBehaviour
 
     IEnumerator _LoadScene(string level)
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             SceneManager.LoadScene(level);
-            ReticlePointerController.Instace.ready = false;
         }
     }
 
@@ -379,12 +364,10 @@ public class LevelGame1 : MonoBehaviour
 
     IEnumerator _HideRetroalimentacion()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             retroExcelente.SetActive(false);
             retroMuyBien.SetActive(false);
@@ -392,7 +375,6 @@ public class LevelGame1 : MonoBehaviour
 
             //ResetData();
 
-            ReticlePointerController.Instace.ready = false;
         }
     }
 
@@ -403,12 +385,10 @@ public class LevelGame1 : MonoBehaviour
 
     IEnumerator _ContinueNextMomento()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             ResetData();
             home.GetComponent<Home>().LoadMoment2();
@@ -418,7 +398,6 @@ public class LevelGame1 : MonoBehaviour
             retroMal.SetActive(false);
 
 
-            ReticlePointerController.Instace.ready = false;
         }
     }
 
@@ -429,12 +408,10 @@ public class LevelGame1 : MonoBehaviour
 
     IEnumerator _EndMomento()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             ResetData();
             
@@ -443,7 +420,6 @@ public class LevelGame1 : MonoBehaviour
             Home.OnSetIndex?.Invoke(2);
             home.GetComponent<Home>().LoadMenuExternal();
 
-            ReticlePointerController.Instace.ready = false;
         }
     }
 
@@ -454,12 +430,10 @@ public class LevelGame1 : MonoBehaviour
 
     IEnumerator _GotoCierre()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             
             retroExcelente.SetActive(false);
@@ -472,7 +446,6 @@ public class LevelGame1 : MonoBehaviour
 
 
 
-            ReticlePointerController.Instace.ready = false;
         }
     }
 }

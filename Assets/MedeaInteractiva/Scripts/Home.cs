@@ -73,12 +73,11 @@ public class Home : MonoBehaviour
 
     IEnumerator _LoadMoment1()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
+        
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             foreach(GameObject component in level_momento_1)
             {
@@ -98,18 +97,16 @@ public class Home : MonoBehaviour
                 component.SetActive(false);
             }
 
-            ReticlePointerController.Instace.ready = false;
         }
     }
 
     IEnumerator _LoadMoment2()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
+        
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             foreach(GameObject component in level_momento_1)
             {
@@ -125,21 +122,18 @@ public class Home : MonoBehaviour
                 component.SetActive(false);
             }
 
-            ReticlePointerController.Instace.ready = false;
         }
     }
 
     IEnumerator _LoadMenu()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
+        
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             LoadMenuExternal();
-            ReticlePointerController.Instace.ready = false;
         }
     }
 
@@ -201,12 +195,11 @@ public class Home : MonoBehaviour
 
     IEnumerator LoadConoce()
     {
-        float seconds = ReticlePointerController.Instace.maxSliderValue;
-        ReticlePointerController.Instace.loading = true;
+        float seconds = 1;
+        
 
         yield return new WaitForSeconds(seconds);
 
-        if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
         {
             foreach(GameObject component in level_momento_1)
             {
@@ -227,7 +220,6 @@ public class Home : MonoBehaviour
             }
 
             SceneController.Instance.ChangeScene(MomentScene.Conoce);
-            ReticlePointerController.Instace.ready = false;
         }
     }
 

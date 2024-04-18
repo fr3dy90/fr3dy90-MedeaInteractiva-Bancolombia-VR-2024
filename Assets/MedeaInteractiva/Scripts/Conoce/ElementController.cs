@@ -33,20 +33,16 @@ public class ElementController : MonoBehaviour
 
    IEnumerator OnHandleClic()
    {
-       float seconds = ReticlePointerController.Instace.maxSliderValue;
-       ReticlePointerController.Instace.loading = true;
+       float seconds = 1;
 
        yield return new WaitForSeconds(seconds);
 
-       if(ReticlePointerController.Instace.ready && !ReticlePointerController.Instace.loading)
        {
            _button.onClick?.Invoke();
-           ReticlePointerController.Instace.ready = false;
        }
    }
 
    public void OnStopLoading()
    {
-       ReticlePointerController.Instace.StopLoading();
    }
 }
