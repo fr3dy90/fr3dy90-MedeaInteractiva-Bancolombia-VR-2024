@@ -15,11 +15,17 @@ public class DraggableObject : MonoBehaviour
     private Vector3 initialScale = new Vector3(1.0f, 1.0f, 1.0f);
     public Vector3 endScale = new Vector3(0.55f, 0.55f, 0.55f);
 
-    private GameObject currentObject;
+    private ContainerCategory lastCategory;
+    private ObjectPosition _objPos;
+    public bool isLastPost = false;
 
     void Start()
     {
         initialPos = transform.position;
+        if (isLastPost)
+        {
+            _objPos = GetComponent<ObjectPosition>();
+        }
     }
 
     public void SetScale(bool startScale)
@@ -38,47 +44,59 @@ public class DraggableObject : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        currentObject = col.gameObject;
-        isDetectCategory = true;
-        InputController.Instace.detecting = true;
-        if(col.GetComponent<ContainerCategory>().category1 == category1)
+        if (col.GetComponent<ContainerCategory>() != null)
         {
-            isCorrectCategory = true;
-        }
-        else
-        {
-            isCorrectCategory = false;
+            lastCategory = col.gameObject.GetComponent<ContainerCategory>();
+            isDetectCategory = true;
         }
     }
-
+    
     void OnTriggerStay(Collider col)
     {
-        currentObject = col.gameObject;
-        isDetectCategory = true;
-        InputController.Instace.detecting = true;
-        if(col.GetComponent<ContainerCategory>().category1 == category1)
+        if (col.GetComponent<ContainerCategory>() != null)
         {
-            isCorrectCategory = true;
-        }
-        else
-        {
-            isCorrectCategory = false;
+            lastCategory = col.gameObject.GetComponent<ContainerCategory>();
+            isDetectCategory = true;
         }
     }
 
-    void OnTriggerExit()
+    void OnTriggerExit(Collider col)
     {
-        ReticlePointerController.Instace.StopLoading();
-        currentObject = null;
-        isDetectCategory = false;
-        isCorrectCategory = false;
+        if (col.GetComponent<ContainerCategory>() != null)
+        {
+            lastCategory = null;
+            isDetectCategory = false;
+            isCorrectCategory = false;
+        }
     }
 
     private void OnDisable()
     {
-        if (currentObject != null)
+        if (lastCategory != null)
         {
-            currentObject.GetComponent<ContainerCategory>().ResetScale();
+            lastCategory.GetComponent<ContainerCategory>().ResetScale();
+        }
+    }
+
+    public void OnRelease()
+    {
+        if (isDetectCategory && lastCategory != null)
+        {
+            isCorrectCategory = lastCategory.category1 == category1;
+            if (_objPos == null)
+            {
+                GameLogic.Instance.DoActionEvent(isCorrectCategory, category1);
+                gameObject.SetActive(false);
+            }
+            else
+            {
+                GameLogic.Instance.DoActionEvent(isCorrectCategory, category1, _objPos);
+                if(isCorrectCategory) gameObject.SetActive(false);
+            }
+        }
+        else
+        {
+            if(_objPos != null) _objPos.ResetPosition();
         }
     }
 }

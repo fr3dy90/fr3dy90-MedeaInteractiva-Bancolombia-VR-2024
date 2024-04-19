@@ -6,244 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="a0e1ff53-d060-4474-a07e-1c967b72b1a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MedeaInteractiva-Bancolombia-VR-2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MedeaInteractiva-Bancolombia-VR-2024/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/CurvedUI_README.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/CurvedUI_README.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/CurvedUI_changelog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/CurvedUI_changelog.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/01 Inventory.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/01 Inventory.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/02 Visor.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/02 Visor.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/03 Mainframe.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/03 Mainframe.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/04 VRMenuMouse.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/04 VRMenuMouse.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/05 VRMenuGaze.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/05 VRMenuGaze.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/06 VRMenuCustomRay.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/06 VRMenuCustomRay.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/07 3DObjectsOnCanvas.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/07 3DObjectsOnCanvas.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/08 WorldSpaceMouse.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/08 WorldSpaceMouse.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/09 TextMeshPro Support.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/09 TextMeshPro Support.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/10 DraggingWithGaze.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/10 DraggingWithGaze.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/11 SteamVR Legacy Starter.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/11 SteamVR Legacy Starter.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/12 SteamVR 2.0 Starter.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/12 SteamVR 2.0 Starter.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/13 OculusVR Starter.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/13 OculusVR Starter.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/14 GoogleVR Starter.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/14 GoogleVR Starter.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_AnimateCurvedFillOnStart.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_AnimateCurvedFillOnStart.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_CameraController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_CameraController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_CameraRotationOnButtonHeld.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_CameraRotationOnButtonHeld.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_ChangeValueOnHold.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_ChangeValueOnHold.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_DragBetweenCanvases.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_DragBetweenCanvases.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_GunController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_GunController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_GunMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_GunMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_MoveAlong.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_MoveAlong.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_MoveHeartbeat.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_MoveHeartbeat.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_OrientOnCurvedSpace.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_OrientOnCurvedSpace.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_PerlinNoisePosition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_PerlinNoisePosition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_PerlinNoiseRotation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_PerlinNoiseRotation.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_PickImageFromSet.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_PickImageFromSet.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_RaycastToCanvas.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_RaycastToCanvas.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_RemoteMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_RemoteMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_RiseChildrenOverTime.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_RiseChildrenOverTime.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_ShowParentCoordinates.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_ShowParentCoordinates.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_TMPChecker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_TMPChecker.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_ViveButtonState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_ViveButtonState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_ViveHapticPulse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_ViveHapticPulse.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_WorldSpaceCursorFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_WorldSpaceCursorFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_WorldSpaceMouseMultipleCanvases.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_WorldSpaceMouseMultipleCanvases.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_bluredspaceship2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_bluredspaceship2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_InputField2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_InputField2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_arrow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_boxes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_boxes.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_circle512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_circle512.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_cross.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartbeat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartbeat.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartfull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartfull.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartstroke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_heartstroke.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_imageplaceholder.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_imageplaceholder.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_profilepic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_profilepic.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_selection-box.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_selection-box.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_selection-circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_selection-circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_share.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_share.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_target-circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_demo_target-circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_draggable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_draggable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image0.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image4.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image5.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_image6.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_bg.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_hero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_hero.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inv_ico_6.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inventory_paralax.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_inventory_paralax.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_laserbeam.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_laserbeam.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo0.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo3.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_photo4.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_pointer-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_pointer-icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_rotation_anim.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_rotation_anim.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_tmp01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_tmp01.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_tmp02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_tmp02.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_tmp03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_tmp03.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_touchpad.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_touchpad.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_visor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_visor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_visorGLOW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_visorGLOW.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_visorbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/CUI_visorbg.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/OverlayBlend.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/OverlayBlend.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/ScreenBlendMat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/ScreenBlendMat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/__blank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/__blank.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/ui-bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Demo Scenes/Demo Scenes Content/ui-bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Prefabs/CurvedCanvas.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Prefabs/CurvedCanvas.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Prefabs/CurvedUILaserPointer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Prefabs/CurvedUILaserPointer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIEventSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIEventSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIExtensionMethods.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIExtensionMethods.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIHandSwitcher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIHandSwitcher.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIInputFieldCaret.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIInputFieldCaret.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIInputModule.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIInputModule.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUILaserBeam.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUILaserBeam.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIPointerEventData.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIPointerEventData.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIRaycaster.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIRaycaster.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUISettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUISettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIVertexEffect.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIVertexEffect.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIViveController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/CurvedUIViveController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/ConditionalCompilationUtility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/ConditionalCompilationUtility.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/CurvedUIHandSwitcherEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/CurvedUIHandSwitcherEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/CurvedUIInputModuleEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/CurvedUIInputModuleEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/CurvedUIScriptOrder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/CurvedUIScriptOrder.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/CurvedUISettingsEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Editor/CurvedUISettingsEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Experimental.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Experimental/CurvedUITMP.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Experimental/CurvedUITMP.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Experimental/CurvedUITMPInputFieldCaret.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Experimental/CurvedUITMPInputFieldCaret.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Experimental/CurvedUITMPSubmesh.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/Experimental/CurvedUITMPSubmesh.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/OptionalDependencyAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/OptionalDependencyAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/curvedui-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CurvedUI/Scripts/curvedui-icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Home.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Home.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/InputController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Orient3DOnCurvedSpace.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Orient3DOnCurvedSpace.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Runtime.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction/Samples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Features.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai/Features.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scenes/Momento1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scenes/Momento1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/DraggableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/DraggableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/LevelGame2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/LevelGame2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,30 +34,34 @@
     <setting file="file://$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Questions/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2ejjJDpPdPeubseaKg9TdWRNdk0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Build-Android&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "WebGL",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\death\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\death\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\death\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\user\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\user\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\user\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2019.4.18f1\Editor\Unity.exe" />
@@ -334,6 +110,7 @@
       <updated>1712424814674</updated>
       <workItem from="1712424820082" duration="29065000" />
       <workItem from="1712627043614" duration="739000" />
+      <workItem from="1713557101861" duration="1398000" />
     </task>
     <servers />
   </component>
@@ -350,15 +127,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/LevelGame2.cs</url>
-          <line>334</line>
-          <properties documentPath="G:\Unity\MedeaInteractiva-Bancolombia-VR-2024\Assets\MedeaInteractiva\Scripts\LevelGame2.cs" initialLine="334" containingFunctionPresentation="Method 'Game'">
-            <startOffsets>
-              <option value="13428" />
-            </startOffsets>
-            <endOffsets>
-              <option value="13468" />
-            </endOffsets>
-          </properties>
+          <line>319</line>
+          <properties documentPath="G:\Unity\MedeaInteractiva-Bancolombia-VR-2024\Assets\MedeaInteractiva\Scripts\LevelGame2.cs" initialLine="334" containingFunctionPresentation="Method 'Game'" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
