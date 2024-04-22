@@ -66,8 +66,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Validar que el cheque este con los endosos y recibirle el pago
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e5bfb72049a32949a6adcb7b07b1d24, type: 2}
+  m_sharedMaterial: {fileID: 2537383416935108732, guid: 8e5bfb72049a32949a6adcb7b07b1d24,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -274,8 +275,9 @@ MonoBehaviour:
   m_text: Validar que el cheque este por el valor exacto de la factura y recibirle
     el pago
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e5bfb72049a32949a6adcb7b07b1d24, type: 2}
+  m_sharedMaterial: {fileID: 2537383416935108732, guid: 8e5bfb72049a32949a6adcb7b07b1d24,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -601,8 +603,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Decirle al cliente que no recibimos pago de facturas en cheque
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e5bfb72049a32949a6adcb7b07b1d24, type: 2}
+  m_sharedMaterial: {fileID: 2537383416935108732, guid: 8e5bfb72049a32949a6adcb7b07b1d24,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1113,7 +1116,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Continuar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e5bfb72049a32949a6adcb7b07b1d24, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1177,7 +1180,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3962557191850240421
@@ -1554,8 +1557,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pregunta 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e5bfb72049a32949a6adcb7b07b1d24, type: 2}
+  m_sharedMaterial: {fileID: 2537383416935108732, guid: 8e5bfb72049a32949a6adcb7b07b1d24,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2076,8 +2080,9 @@ MonoBehaviour:
 
     facturas.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e5bfb72049a32949a6adcb7b07b1d24, type: 2}
+  m_sharedMaterial: {fileID: 2537383416935108732, guid: 8e5bfb72049a32949a6adcb7b07b1d24,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2195,6 +2200,7 @@ MonoBehaviour:
   _questions: {fileID: 11400000, guid: 07ed189c76877c840ab1543c737a087f, type: 2}
   _indexQuestion: 0
   _parent: {fileID: 0}
+  _juegoCanvasGroup: {fileID: 0}
 --- !u!114 &8295653842211978790
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2295,8 +2301,9 @@ MonoBehaviour:
   m_text: "Si un cliente desea pagar una factura con un cheque de otra plaza\r\n\xBFqu\xE9
     deber\xEDas hacer?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8e5bfb72049a32949a6adcb7b07b1d24, type: 2}
+  m_sharedMaterial: {fileID: 2537383416935108732, guid: 8e5bfb72049a32949a6adcb7b07b1d24,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

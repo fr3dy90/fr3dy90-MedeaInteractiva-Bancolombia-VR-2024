@@ -47,13 +47,16 @@ public class Home : MonoBehaviour
         sequenceObject[0].SetActive(true);
         yield return new WaitForSeconds(2);
         sequenceObject[0].SetActive(false);
-        sequenceObject[1].SetActive(true);
+        //sequenceObject[1].SetActive(true);
         yield return new WaitForSeconds(1.0f);
-        StartCoroutine(StartInstruction());
+        //Corutina de cardboard
+        //StartCoroutine(StartInstruction());
+        LoadMenu();
     }
 
     IEnumerator StartInstruction()
     {
+        
         sequenceObject[2].GetComponent<CanvasGroup>().DOFade(1.0f, 1.0f);
         PlayAudio(0);
         yield return new WaitForSeconds(_audio.clip.length);

@@ -6,16 +6,863 @@
   <component name="ChangeListManager">
     <list default="true" id="a0e1ff53-d060-4474-a07e-1c967b72b1a3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MedeaInteractiva-Bancolombia-VR-2024/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MedeaInteractiva-Bancolombia-VR-2024/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Fonts/CIBFont Sans/CIBFontSans-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Fonts/CIBFont Sans/CIBFontSans-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Content_niveles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Content_niveles.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Logo_L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Logo_L.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Logo_M.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Logo_M.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_Title_Counter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_Title_Counter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_counter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_counter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_level_L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_level_L.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_modal_felicitaciones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_modal_felicitaciones.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_modal_ok_wrong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_modal_ok_wrong.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_title_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Bg_title_s.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Btn_Comenzar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Btn_Comenzar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Btn_continuar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Btn_continuar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Btn_continuar_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Btn_continuar_active.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Btn_cvomenzar_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Btn_cvomenzar_active.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_Start.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_Start.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_conoce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_conoce.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_instructivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_instructivo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_instructivoz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_instructivoz.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_maquinas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_maquinas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_ok.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_papeleria.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_papeleria.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_preparate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_preparate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_seguridad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_seguridad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_wrongvv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Icon_wrongvv.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Image_mensaje_instructivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Image_mensaje_instructivo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Line_Bienvenidos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Line_Bienvenidos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Vr_Set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Vr_Set.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Vr_Set_Active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/Vr_Set_Active.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/bg_instructions.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/bg_instructions.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/bg_level_menu_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/bg_level_menu_s.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/bg_title_L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/bg_title_L.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/btn_siguiente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/btn_siguiente.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/btn_siguiente_activey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/btn_siguiente_activey.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/game_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/game_category.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/game_chargin_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/game_chargin_bar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/go.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/go.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/go_Active_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/go_Active_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/go_active_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/go_active_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_maquinas_s_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_maquinas_s_black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_maquinas_s_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_maquinas_s_white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_papeleria_s_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_papeleria_s_black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_papeleria_s_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_papeleria_s_white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_seguridad_s_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_seguridad_s_black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_seguridad_s_white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/icon_seguridad_s_white.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/line_bc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo1/line_bc.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/bg_txt_level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/bg_txt_level.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game1_2_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game1_2_header.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_elements.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_elements.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_elements_active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_elements_active.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_L.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_L.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_L_good.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_L_good.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_L_wrong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_L_wrong.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_S.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_S_good.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_S_good.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_S_static_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_S_static_v2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_m.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_m_good.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_m_good.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_m_wrong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_m_wrong.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_s_wrong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/game2_text_s_wrong.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/new.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/new/game2_text_good_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/new/game2_text_good_v2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/new/game2_text_neutral_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/new/game2_text_neutral_v2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/new/game2_text_wrong_v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/Modulo2/new/game2_text_wrong_v2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/logo_s.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Dic2022Images/logo_s.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Momento 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Momento 2/conoce_momento 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/Momento 2/conoce_momento 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Maquina imprinter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Maquina imprinter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Máquina_contadora_billetes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Máquina_contadora_billetes.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Plantilla Foami.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Plantilla Foami.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Probadora_de_valores (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Probadora_de_valores (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/ProtectoraDeValores.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/ProtectoraDeValores.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Tinta_de_seguridad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/Tinta_de_seguridad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/botonPanico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/botonPanico.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/brocha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/brocha.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/cajaFuerte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/cajaFuerte.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/copitos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/copitos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/fajillas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/fajillas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/hipoclorito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/hipoclorito.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/huellero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/huellero.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/humectadedos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/humectadedos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/impresora.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/impresora.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/lectorCodigoBarras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/lectorCodigoBarras.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/lectorHuellas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/lectorHuellas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/monedero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/monedero.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/palomera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/palomera.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/pin pad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/pin pad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/removedor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/removedor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/sellos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/sellos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/tijeras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/RenderedPrefabs/tijeras.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/P7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p1_btn_notext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p1_btn_notext.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p1_btn_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p1_btn_text.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p1_title.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p1_title.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_clasifica.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_clasifica.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_conecta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_conecta.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_conoce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_conoce.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_menu_notext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_menu_notext.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_menu_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_btn_menu_text.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_lineaBC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p2_lineaBC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3_bg_black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3_bg_black.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3_btn_conoce_xl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3_btn_conoce_xl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3_btn_iniciar_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3_btn_iniciar_text.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3_lineaBC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3_lineaBC.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3¡_btn_iniciar_notext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p3¡_btn_iniciar_notext.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_bg_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_bg_header.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_bg_option.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_bg_option.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_btn_conoce_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_btn_conoce_header.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_done_option.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_done_option.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_selected_option.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_selected_option.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_text_container.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p4_text_container.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_btn_continuar_noext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_btn_continuar_noext.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_btn_continuar_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_btn_continuar_text.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_btn_pregunta_notext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_btn_pregunta_notext.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_btn_pregunta_text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_btn_pregunta_text.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_list_A.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_list_A.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_list_B.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_list_B.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_list_C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_list_C.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_list_D.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_list_D.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_option_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_option_next.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_option_prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_option_prev.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_pregunta_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_pregunta_bg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_pregunta_container.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p5_pregunta_container.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p6_icon_correct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p6_icon_correct.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p6_icon_incorrect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p6_icon_incorrect.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p6_pregunta_container_correct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p6_pregunta_container_correct.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p6_pregunta_container_incorrect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/UI_03_2024/p6_pregunta_container_incorrect.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/atras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/atras.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/barra borde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/barra borde.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/barra de los objetos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/barra de los objetos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/barra relleno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/barra relleno.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/bienvenidos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/bienvenidos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/bono.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/bono.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/borde cuenta regresiva.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/borde cuenta regresiva.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/circulo bien hecho.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/circulo bien hecho.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/circulo conoce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/circulo conoce.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/circulo objetos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/circulo objetos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor fallo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor fallo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_011.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_012.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_013.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_014.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_015.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_016.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_017.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_018.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_019.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_020.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_021.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_022.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_023.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_024.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_025.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_026.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_026.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_027.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_027.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_028.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_028.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_029.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_030.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_030.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_031.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_032.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_032.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_033.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_033.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_034.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_034.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_035.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_035.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_036.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_036.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_037.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_037.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_038.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor felicitaciones/Contenedor Felicitaciones/Contenedor Felicitaciones_039.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor instructivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor instructivo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor momento.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor momento.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor muy bien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor muy bien.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor texto momento 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor texto momento 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/contenedor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/continuar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/continuar.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/cuadro preguntas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/cuadro preguntas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/dispositivos de seguridad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/dispositivos de seguridad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/dispositivos pequeno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/dispositivos pequeno.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/elementos pequeno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/elementos pequeno.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/estrella contador puntuacion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/estrella contador puntuacion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/estrella de felicitacion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/estrella de felicitacion.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/estrella.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/estrella.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/herramientas de trabajo-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/herramientas de trabajo-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/herramientas de trabajo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/herramientas de trabajo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/herramientas pequeno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/herramientas pequeno.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/icono elementos de trabajo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/icono elementos de trabajo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/icono herramientas de trabajo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/icono herramientas de trabajo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/icono instructivo 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/icono instructivo 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/icono instructivo 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/icono instructivo 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/iconos dispositivos de seguridad.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/iconos dispositivos de seguridad.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/indicador vr 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/indicador vr 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/indicador vr 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/indicador vr 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/indicador vr 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/indicador vr 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/instrucciones.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/instrucciones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/instrucciones.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/instrucciones/Hoja_Sprite_Mover_Objetos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/instrucciones/Hoja_Sprite_Mover_Objetos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/instructivo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/instructivo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/logo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nivel 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nivel 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nivel uno pequeno.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nivel uno pequeno.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nuevos intro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nuevos intro/nuevos intro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nuevos intro/nuevos intro/inicio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nuevos intro/nuevos intro/inicio.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nuevos intro/nuevos intro/saltar-instrucciones.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/nuevos intro/nuevos intro/saltar-instrucciones.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/oculus_go.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/oculus_go.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/preparate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/preparate.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/relleno barra de los objetos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/relleno barra de los objetos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/rojo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/rojo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/seleccion opcion a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/seleccion opcion a.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/seleccion opcion b.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/seleccion opcion b.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/seleccion opcion c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/seleccion opcion c.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/titulo preguntas respuesta incorrecta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/titulo preguntas respuesta incorrecta.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/titulo preguntas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/titulo preguntas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/verde.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/verde.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/vr gafas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Images/vr gafas.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Prefabs/Element.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Prefabs/Element.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Prefabs/Questions.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Prefabs/Questions.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scenes/Momento1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scenes/Momento1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/DraggableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/DraggableObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/LevelGame2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/LevelGame2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Interaction.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib/Wit.ai.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/AvatarController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/AvatarController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Home.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Home.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Questions/QuestionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Questions/QuestionsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MedeaInteractiva/Video/Unlit_GreenRemove.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MedeaInteractiva/Video/Unlit_GreenRemove.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs/LocalAvatar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs/LocalAvatar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs/RemoteAvatar.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs/RemoteAvatar.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android32.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android32/libovravatarloader.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android32/libovravatarloader.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android64/libovravatarloader.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android64/libovravatarloader.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_2048.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_1024.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_1024.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_2048.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_2048.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/AvatarGallery.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/AvatarGallery.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/Controllers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/Controllers/Controllers.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/Controllers/Controllers.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform/CrossPlatform.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform/CrossPlatform.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform/Readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/GripPoses.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/GripPoses.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/LocalAvatar.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/LocalAvatar.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs/GazeTarget.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs/GazeTarget.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs/GazeTargetSpawner.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs/GazeTargetSpawner.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts/GazeTargetSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts/GazeTargetSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/RemoteLoopback.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/RemoteLoopback.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/GearHelp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/GearHelp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Help.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Help.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Offline_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Offline_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Plane_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Plane_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures/GearHelp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures/GearHelp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures/Help.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures/Help.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/README.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/GazeTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/GazeTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAssetTexture.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAssetTexture.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarHand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarHand.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarLocalDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarLocalDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarPacket.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarPacket.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarRemoteDriver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarRemoteDriver.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSettingsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSettingsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Assets/OfflineModel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Assets/OfflineModel/ovrlipsync_offline_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Assets/OfflineModel/ovrlipsync_offline_model.pb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio/vox_lp_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio/vox_lp_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio/vox_lp_01_lipSync.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio/vox_lp_01_lipSync.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncBuildPostProcessor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncBuildPostProcessor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncContextMorphTargetEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncContextMorphTargetEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncTool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncTool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRNamedArrayPropertyDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRNamedArrayPropertyDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbm/melinda_DIFF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbm/melinda_DIFF.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/eyelashes.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/eyelashes.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/hair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/hair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/melinda_DIFF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/melinda_DIFF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/outerEyeShell.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/outerEyeShell.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/shirt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/shirt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/skin_DIFF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/skin_DIFF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/hair_NRM.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/hair_NRM.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_DIFF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_DIFF.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_NRM.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_NRM.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/CH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/CH.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/DD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/DD.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/E.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/FF.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/FF.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Head-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Head-2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/Head-2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/Head-2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/sil.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/sil.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/PP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/PP.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/RR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/RR.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/RobotHead_TextureFlip.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/RobotHead_TextureFlip.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/SS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/SS.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/TH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/TH.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/aa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/aa.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/ih.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/ih.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/kk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/kk.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/nn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/nn.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/oh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/oh.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/ou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/ou.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/sil.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/sil.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android32.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android32/libOVRLipSync.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android32/libOVRLipSync.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android64/libOVRLipSync.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android64/libOVRLipSync.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/MacOSX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Win64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Win64/OVRLipSync.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Win64/OVRLipSync.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSync.dylib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSync.dylib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSyncShim.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSyncShim.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncDebugConsole.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncDebugConsole.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncInterface.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncInterface.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncMorphTarget_Female.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncMorphTarget_Female.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncTextureFlipTarget_Robot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncTextureFlipTarget_Robot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/LipSync_Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/LipSync_Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/EnableSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/EnableSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_Control.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_Control.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_SetCurrentTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_SetCurrentTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRLipSyncDebugConsole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRLipSyncDebugConsole.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRNamedArrayAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRNamedArrayAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRTouchpad.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRTouchpad.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSync.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSync.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContext.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextCanned.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextCanned.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextMorphTarget.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextMorphTarget.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextTextureFlip.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextTextureFlip.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncMicInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncMicInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncSequence.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncSequence.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandlerAvatarTouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/TeleportInputHandlerAvatarTouch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Audio/vox_lp_01.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Audio/vox_lp_01.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Android32.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Android32/libOVRVoiceMod.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Android32/libOVRVoiceMod.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/Info.plist.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/MacOS.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/MacOS/OVRVoiceMod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/MacOS/OVRVoiceMod.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win32.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win32/OVRVoiceMod.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win32/OVRVoiceMod.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win64.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win64/OVRVoiceMod.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win64/OVRVoiceMod.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRCameraWithDebug.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRCameraWithDebug.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRDebugConsole.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRDebugConsole.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRDebugConsoleOutput.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRDebugConsoleOutput.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRVoiceModInterface.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRVoiceModInterface.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Materials/Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Materials/Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModDemo_Logic.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModDemo_Logic.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModEnableSwitch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModEnableSwitch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/VoiceMod_Demo.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/VoiceMod_Demo.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRDebugConsole.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRDebugConsole.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMessenger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMessenger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMicInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMicInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/OVRVoiceModContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/OVRVoiceModContext.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +881,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/Questions/AnswerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/SceneController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2ejjJDpPdPeubseaKg9TdWRNdk0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,9 +903,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\user\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\user\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\user\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\death\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\death\\AppData\\Roaming\\JetBrains\\Rider2023.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\death\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -89,10 +936,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="18568">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="18568" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -111,6 +958,7 @@
       <workItem from="1712424820082" duration="29065000" />
       <workItem from="1712627043614" duration="739000" />
       <workItem from="1713557101861" duration="1398000" />
+      <workItem from="1713571220922" duration="4530000" />
     </task>
     <servers />
   </component>
@@ -130,6 +978,19 @@
           <line>319</line>
           <properties documentPath="G:\Unity\MedeaInteractiva-Bancolombia-VR-2024\Assets\MedeaInteractiva\Scripts\LevelGame2.cs" initialLine="334" containingFunctionPresentation="Method 'Game'" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/MedeaInteractiva/Scripts/GameLogic.cs</url>
+          <line>20</line>
+          <properties documentPath="G:\Unity\MedeaInteractiva-Bancolombia-VR-2024\Assets\MedeaInteractiva\Scripts\GameLogic.cs" initialLine="20" containingFunctionPresentation="Method 'DoActionEvent'">
+            <startOffsets>
+              <option value="390" />
+            </startOffsets>
+            <endOffsets>
+              <option value="391" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

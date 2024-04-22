@@ -18,12 +18,13 @@ public class QuestionsController : MonoBehaviour
    [SerializeField] private int _indexQuestion;
    
    [SerializeField]private Transform _parent;
+   [SerializeField] private CanvasGroup _juegoCanvasGroup;
    
 
 
    private void Start()
    {
-      SetQuestion(SetAnswers);
+      
       _parent.gameObject.SetActive(false);
       _questionsView.buttonContinue.onClick.AddListener(() =>
       {
@@ -36,17 +37,23 @@ public class QuestionsController : MonoBehaviour
       _canvasGroup.alpha = 0;
      SceneController.Instance.ChangeScene(MomentScene.Momento2); 
       _parent.gameObject.SetActive(false);
+      _juegoCanvasGroup.blocksRaycasts = true;
    }
    
    public void StartQuestions()
    {
+      SetQuestion(SetAnswers);
       _canvasGroup.alpha = 0;
       _parent.gameObject.SetActive(true);
-      StartCoroutine(Tools.Fade(0,1, 1f, _canvasGroup, OnInit));
+      
+     OnInit(() => { 
+      StartCoroutine(Tools.Fade(0,1, 1f, _canvasGroup, null));
+     });
    }
 
-   private void OnInit()
+   private void OnInit(Action onComplete)
    {
+      _indexQuestion = 0;
       for (int i = 0; i < _questions.questions.Length; i++)
       {
          _questions.questions[i].isSelected = false;
@@ -55,11 +62,18 @@ public class QuestionsController : MonoBehaviour
             _questions.questions[i].answer[j].isSelected = false;
          }
       }
+      
+      foreach (var t in _questionsView.buttonsAnswers)
+      {
+         t.onClick.RemoveAllListeners();
+      }
 
       foreach (var t in _questionsView.buttonsAnswers)
       {
          t.onClick.AddListener(() => SetAnswer(t.transform.GetSiblingIndex()));
       }
+      _questionsView.backButton.onClick.RemoveAllListeners();
+      _questionsView.nextButton.onClick.RemoveAllListeners();
       
       _questionsView.backButton.onClick.AddListener(() => HandleIndex(_indexQuestion - 1));
       _questionsView.nextButton.onClick.AddListener(() =>
@@ -71,7 +85,7 @@ public class QuestionsController : MonoBehaviour
       });
       HandleIndex(_indexQuestion);
       _questionsView.HandleNavigation(_questionsView.buttonContinue, false);
-
+      onComplete?.Invoke();
    }
 
    private void TestQestions()
@@ -87,6 +101,7 @@ public class QuestionsController : MonoBehaviour
 
    public void SetQuestion(Action onComplete = null)
    {
+      _juegoCanvasGroup.blocksRaycasts = false;
       Random rnd = new Random();
       _questions.questions = _questions.questions.OrderBy(x => rnd.Next()).ToArray();
       onComplete?.Invoke();

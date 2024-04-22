@@ -33,7 +33,7 @@ public class AvatarController : MonoBehaviour
 
    IEnumerator StartHome()
    {
-      yield return new WaitForSeconds((float)_videoPlayer.length);
+      yield return new WaitForSeconds(28f);
       SceneController.Instance.ChangeScene(MomentScene.Home);
       _avatar.gameObject.SetActive(false);
    }
